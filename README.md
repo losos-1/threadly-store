@@ -1,27 +1,56 @@
-# React TS Starter Ready
+# Threadly
 
-Clean Vite + React + TypeScript starter with SCSS architecture.
+Threadly — интернет-магазин одежды, разработанный на React и TypeScript.
 
-## Start
+Проект создаётся как полноценное e-commerce приложение с каталогом товаров, фильтрацией, сортировкой, динамическими страницами товаров и корзиной.
 
-```bash
-npm install
-npm run dev
-```
+## Демо
 
-## Structure
+Онлайн-версия: скоро будет доступна
 
-```txt
+## Возможности
+
+- Каталог товаров
+- Фильтрация по категории, цвету, размеру и цене
+- Сортировка товаров
+- Динамические страницы товаров
+- Галерея изображений товара
+- Выбор доступного цвета
+- Выбор доступного размера
+- Изменение количества товара
+- Адаптивный интерфейс
+
+## Технологии
+
+- React
+- TypeScript
+- React Router
+- SCSS
+- Vite
+
+## Особенности реализации
+
+- Переиспользуемые React-компоненты
+- Типизация props с помощью TypeScript
+- Динамическая маршрутизация через React Router
+- Фильтрация и сортировка товаров
+- Повторное использование компонентов выбора цвета и размера в каталоге и на странице товара
+- Передача состояния между компонентами через props и callback-функции
+- SCSS и методология BEM
+
+## Структура проекта
+
+```text
 src/
-  app/
-  api/
-  assets/
-  components/
-  data/
-  hooks/
-  layouts/
-  pages/
-  styles/
-  types/
-  utils/
-```
+├── assets/
+├── components/
+│   ├── ProductCard/
+│   ├── ProductGallery/
+│   ├── ProductPageInfo/
+│   ├── Sidebar/
+│   └── UI/
+├── data/
+├── layouts/
+├── pages/
+├── styles/
+└── types/
