@@ -1,0 +1,167 @@
+.header {
+  background-color: var(--color-white);
+  position: relative;
+  margin-bottom:24px;
+  padding-bottom:24px;
+  border-bottom: 1px solid var(--color-black10);
+  &__inner {
+    display: grid;
+    grid-template-columns: auto auto minmax(220px, 1fr) auto;
+    align-items: center;
+    gap: fluid(32, 16);
+    padding-block: 20px;
+  }
+
+  &__logo {
+    color: var(--color-black);
+    font-family: var(--font-title);
+    font-size: fluid(32, 26);
+    line-height: 1;
+  }
+
+  &__list,
+  &__account {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list {
+    gap: 20px;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__nav-link,
+  &__drop-button {
+    color: var(--color-black);
+    white-space: nowrap;
+  }
+
+  &__nav-link:hover,
+  &__nav-link--active {
+    text-decoration: underline;
+  }
+
+  &__drop-button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  &__arrow {
+    width: 14px;
+    transition: transform var(--transition-duration);
+
+    &--active {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__drop-menu {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    z-index: 20;
+    width: 240px;
+    display: grid;
+    gap: 8px;
+    padding: 18px;
+    border: var(--border);
+    border-radius: var(--border-radius-s);
+    background-color: var(--color-white);
+    box-shadow: 0 12px 30px rgb(0 0 0 / 10%);
+  }
+
+  &__drop-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 6px;
+
+    img {
+      width: 14px;
+      transform: rotate(-90deg);
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+    padding: 12px 16px;
+    border-radius: 999px;
+    background-color: var(--color-bg-button);
+
+    img {
+      width: 20px;
+      flex: 0 0 auto;
+    }
+
+    input {
+      width: 100%;
+      min-width: 0;
+      border: 0;
+      outline: 0;
+      background: transparent;
+    }
+
+    &:focus-within {
+      outline: 2px solid var(--color-black);
+      outline-offset: 2px;
+    }
+  }
+
+  &__account {
+    gap: 14px;
+  }
+
+  &__account-link {
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+
+    width: 100%;
+    height: 1px;
+
+    top: 0;
+    left: 0;
+
+    background-color: var(--color-black10);
+  }
+  @include tablet {
+    &__inner {
+      grid-template-columns: auto minmax(180px, 1fr) auto;
+    }
+
+    &__menu {
+      display: none;
+    }
+  }
+
+  @include mobile {
+    &__inner {
+      grid-template-columns: 1fr auto;
+    }
+
+    &__search {
+      grid-column: 1 / -1;
+      grid-row: 2;
+    }
+  }
+}

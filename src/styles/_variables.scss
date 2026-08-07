@@ -1,0 +1,39 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red:#F50606;
+  --color-grin:#00C12B;
+  --color-blue:#063AF5;
+  --color-azure:#06CAF5;
+  --color-perple:#7D06F5;
+  --color-pink:#F506A4;
+  --color-orange:#F57906;
+  --color-yellow:#F5DD06;
+
+  --color-bg: #f2f0f1;
+  --color-bg-dark: #ffffff;
+  --color-bg-red: rgb(255 51 51 / 10%);
+  --color-bg-button: #f0f0f0;
+  --color-bg-product: #f0eeed;
+  --color-black10:rgb(0,0,0,0.1);
+  
+
+  --color-title: #000000;
+  --color-text-red: #ff3333;
+  --color-text: rgb(0 0 0 / 60%);
+  --color-text-opacity40: rgb(0 0 0 / 40%);
+
+  --container-width: 1240px;
+  --container-padding-x: 20px;
+
+  --border: 1px solid rgb(0 0 0 / 10%);
+  --border-radius-xs: 12px;
+  --border-radius-s: 20px;
+  --border-radius-m: 25px;
+
+  --transition-duration: 0.2s;
+  --transition-duration-long: 0.4s;
+
+  --font-main: "Satoshi", Arial, sans-serif;
+  --font-title: "Anton", Arial, sans-serif;
+}

@@ -1,0 +1,79 @@
+@use "./mixins" as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  color: var(--color-text);
+  background-color: var(--color-bg-dark);
+  font-family: var(--font-main);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h1,
+.h1,
+h2,
+.h2
+{
+  color: var(--color-title);
+  font-family: var(--font-title);
+  line-height: 1.05;
+}
+
+h1,
+.h1 {
+  @include fluid-text(64, 36);
+  font-weight: 400;
+}
+
+h2,
+.h2 {
+  @include fluid-text(48, 32);
+  font-weight: 400;
+}
+
+h3,
+.h3 {
+  @include fluid-text(36, 24);
+  font-weight: 400;
+}
+
+h4,
+.h4 {
+  @include fluid-text(20, 16);
+  font-weight: 700;
+}
+
+h5,
+.h5 {
+  @include fluid-text(16, 14);
+  font-weight: 400;
+}
+
+p,
+span,
+strong {
+  color: var(--color-text);
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:focus-visible {
+  @include focus-visible;
+}

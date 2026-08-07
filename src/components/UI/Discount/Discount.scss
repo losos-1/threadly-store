@@ -1,0 +1,11 @@
+.discount {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding-inline: 13px;
+  color: var(--color-text-red);
+  background-color: var(--color-bg-red);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}

@@ -1,0 +1,16 @@
+.layout {
+  min-height: 100vh;
+  background-color: var(--color-bg-dark);
+
+  &__content {
+    min-height: 100vh;
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+  }
+
+  &__main {
+    flex: 1;
+    min-width: 0;
+  }
+}

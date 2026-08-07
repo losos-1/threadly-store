@@ -1,0 +1,14 @@
+.size-button{
+    border: none;
+    border-radius: var(--border-radius-s);
+    background-color: var(--color-bg-button);
+    padding: 10px 20px;
+    transition: var(--transition-duration);
+    white-space: nowrap;
+
+    &--active{
+        background-color: var(--color-black);
+        color: var(--color-white);
+
+    }
+}

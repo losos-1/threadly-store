@@ -1,0 +1,34 @@
+.button {
+  min-height: 48px;
+  padding: 12px fluid(36, 24);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 500;
+
+  &:hover {
+    translate: 0 -1px;
+  }
+
+  &:active {
+    translate: 0 0;
+  }
+
+  &--primary {
+    color: var(--color-white);
+    background-color: var(--color-black);
+  }
+
+  &--outline {
+    color: var(--color-black);
+    border-color: rgb(0 0 0 / 10%);
+    background-color: transparent;
+  }
+
+  &--average {
+    padding-inline: fluid(80, 40);
+  }
+  &--wide{
+    padding:fluid(15,12) fluid(157,81) ;
+  }
+}

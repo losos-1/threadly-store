@@ -1,0 +1,27 @@
+.sidebar--block {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--color-black10);
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-bottom: fluid(20, 16);
+
+    border: none;
+    background-color: transparent;
+  }
+
+  &__arrow {
+    transform: rotate(180deg);
+    transition: var(--transition-duration);
+
+    &--active {
+      transform: rotate(90deg);
+    }
+  }
+}

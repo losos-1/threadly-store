@@ -1,0 +1,174 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-bg);
+
+  &__background {
+    position: absolute;
+    inset: 0 0 auto;
+    height: 663px;
+    pointer-events: none;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(0, 580px) 1fr;
+    min-height: 663px;
+  }
+
+  &__main {
+    align-self: center;
+    padding-block: fluid(90, 56);
+  }
+
+  &__description {
+    max-width: 545px;
+    margin-block: fluid(32, 20);
+  }
+
+  &__stats {
+    display: flex;
+    align-items: stretch;
+    margin-top: fluid(48, 32);
+  }
+
+  &__stats-item {
+    position: relative;
+    padding-inline: fluid(32, 16);
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1px;
+      height: 100%;
+      background-color: rgb(0 0 0 / 10%);
+    }
+
+    strong {
+      display: block;
+      color: var(--color-black);
+      font-size: fluid(40, 24);
+      line-height: 1.1;
+    }
+  }
+
+  &__decor {
+    position: relative;
+  }
+
+  &__star {
+    position: absolute;
+
+    &--top {
+      top: 12%;
+      right: 3%;
+      width: fluid(104, 64);
+    }
+
+    &--bottom {
+      top: 50%;
+      left: 12%;
+      width: fluid(56, 40);
+    }
+  }
+
+  &__brands {
+    position: relative;
+    z-index: 2;
+    background-color: var(--color-black);
+  }
+
+  &__brands-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: fluid(36, 20);
+    padding-block: fluid(44, 28);
+
+    img {
+      max-width: fluid(165, 100);
+      max-height: 34px;
+      object-fit: contain;
+    }
+  }
+
+  @include tablet {
+    &__content {
+      grid-template-columns: minmax(0, 520px) 1fr;
+    }
+
+    &__background img {
+      object-position: 58% top;
+    }
+  }
+
+  @include mobile {
+    &__background {
+      position: static;
+      order: 2;
+      height: 420px;
+    }
+
+    &__background img {
+      object-position: 67% top;
+    }
+
+    &__content {
+      min-height: auto;
+      grid-template-columns: 1fr;
+    }
+
+    &__decor {
+      display: none;
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__stats {
+      justify-content: center;
+      flex-wrap: wrap;
+      row-gap: 20px;
+    }
+
+    &__brands-inner {
+      justify-content: center;
+    }
+  }
+
+  @include mobile-s {
+    &__stats-item {
+      width: 50%;
+      text-align: center;
+
+      &:nth-child(2)::after {
+        display: none;
+      }
+
+      &:last-child {
+        width: 100%;
+      }
+    }
+  }
+}

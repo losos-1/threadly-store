@@ -1,0 +1,20 @@
+@use "sass:math";
+
+@function fluid(
+  $max,
+  $min,
+  $max-viewport: 1440,
+  $min-viewport: 390
+) {
+  $slope: math.div(
+    $max - $min,
+    $max-viewport - $min-viewport
+  );
+  $intersection: $min - $slope * $min-viewport;
+
+  @return clamp(
+    #{$min}px,
+    #{$intersection}px + #{$slope * 100}vw,
+    #{$max}px
+  );
+}

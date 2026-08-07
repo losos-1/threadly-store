@@ -1,0 +1,38 @@
+.footer-column{
+    display: grid;
+    grid-template-columns: 1;
+    gap:26px;
+
+    &__list{
+        display: grid;
+        grid-template-columns: 1;
+        gap:20px;
+    }
+    &__link{
+        text-decoration: none;
+        color: var(--color-text);
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

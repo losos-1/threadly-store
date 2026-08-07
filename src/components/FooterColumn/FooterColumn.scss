@@ -1,0 +1,23 @@
+.footer-column {
+  display: grid;
+  align-content: start;
+  gap: 26px;
+
+  &__title {
+    letter-spacing: 0.08em;
+  }
+
+  &__list {
+    display: grid;
+    gap: 20px;
+  }
+
+  &__link {
+    color: var(--color-text);
+
+    &:hover {
+      color: var(--color-black);
+      text-decoration: underline;
+    }
+  }
+}

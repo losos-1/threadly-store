@@ -1,0 +1,23 @@
+.color-cycle{
+
+    &__button{
+        border: var(--border);
+        border-radius: 50%;
+        
+        width:37px;
+        height: 37px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    &__mark{
+        width: 16px;
+        height: 16px;
+        display: none;
+        &--active{
+            display: block;
+        }
+    }
+}

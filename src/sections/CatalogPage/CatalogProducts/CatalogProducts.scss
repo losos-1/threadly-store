@@ -1,0 +1,9 @@
+.catalog__products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: fluid(20,14);
+
+    border-bottom: var(--border);
+    padding-bottom: fluid(32,24);
+    margin-bottom: 20px;
+}
