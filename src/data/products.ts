@@ -16,6 +16,12 @@ export const products: Product[] = [
     price: 240,
     rating: 3.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Portugal",
+    },
     imgSrc: blackStripedShirt,
     images: [
       blackStripedShirt,
@@ -33,6 +39,12 @@ export const products: Product[] = [
     price: 125,
     rating: 4,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Turkey",
+    },
     imgSrc: checkeredShirt,
     images: [
       checkeredShirt,
@@ -51,6 +63,12 @@ export const products: Product[] = [
     oldPrice: 190,
     rating: 4.5,
     description: "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+    details: {
+      material: "95% cotton, 5% elastane",
+      fit: "Regular fit",
+      care: "Machine wash cold, reshape while damp, do not tumble dry",
+      origin: "Italy",
+    },
     imgSrc: poloWithTippingDetails,
     images: [
       poloWithTippingDetails,
@@ -68,6 +86,12 @@ export const products: Product[] = [
     price: 180,
     rating: 5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Vietnam",
+    },
     imgSrc: courageGraphicShirt,
     images: [
       courageGraphicShirt,
@@ -86,6 +110,12 @@ export const products: Product[] = [
     oldPrice: 247,
     rating: 3,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Bangladesh",
+    },
     imgSrc: verticalStripedShirt,
     images: [
       verticalStripedShirt,
@@ -104,6 +134,12 @@ export const products: Product[] = [
     oldPrice: 195,
     rating: 3.5,
     description: "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+    details: {
+      material: "80% cotton, 20% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, wash with similar colors, tumble dry low",
+      origin: "India",
+    },
     imgSrc: looseFitBermudaShorts,
     images: [
       looseFitBermudaShorts,
@@ -121,6 +157,12 @@ export const products: Product[] = [
     price: 80,
     rating: 4,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Portugal",
+    },
     imgSrc: gradientGraphicShirt,
     images: [
       gradientGraphicShirt,
@@ -138,6 +180,12 @@ export const products: Product[] = [
     price: 215,
     rating: 4.5,
     description: "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+    details: {
+      material: "98% cotton, 2% elastane",
+      fit: "Skinny fit",
+      care: "Machine wash cold inside out, do not bleach, line dry",
+      origin: "Turkey",
+    },
     imgSrc: fadedSkinnyJeans,
     images: [
       fadedSkinnyJeans,
@@ -156,6 +204,12 @@ export const products: Product[] = [
     oldPrice: 220,
     rating: 3,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Italy",
+    },
     imgSrc: blackStripedShirt,
     images: [
       blackStripedShirt,
@@ -174,6 +228,12 @@ export const products: Product[] = [
     oldPrice: 115,
     rating: 3.5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Vietnam",
+    },
     imgSrc: checkeredShirt,
     images: [
       checkeredShirt,
@@ -191,6 +251,12 @@ export const products: Product[] = [
     price: 90,
     rating: 4,
     description: "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+    details: {
+      material: "95% cotton, 5% elastane",
+      fit: "Regular fit",
+      care: "Machine wash cold, reshape while damp, do not tumble dry",
+      origin: "Bangladesh",
+    },
     imgSrc: poloWithTippingDetails,
     images: [
       poloWithTippingDetails,
@@ -209,6 +275,12 @@ export const products: Product[] = [
     oldPrice: 150,
     rating: 4.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "India",
+    },
     imgSrc: courageGraphicShirt,
     images: [
       courageGraphicShirt,
@@ -226,6 +298,12 @@ export const products: Product[] = [
     price: 167,
     rating: 5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Portugal",
+    },
     imgSrc: verticalStripedShirt,
     images: [
       verticalStripedShirt,
@@ -243,6 +321,12 @@ export const products: Product[] = [
     price: 105,
     rating: 3,
     description: "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+    details: {
+      material: "80% cotton, 20% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, wash with similar colors, tumble dry low",
+      origin: "Turkey",
+    },
     imgSrc: looseFitBermudaShorts,
     images: [
       looseFitBermudaShorts,
@@ -261,6 +345,12 @@ export const products: Product[] = [
     oldPrice: 105,
     rating: 3.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Italy",
+    },
     imgSrc: gradientGraphicShirt,
     images: [
       gradientGraphicShirt,
@@ -278,6 +368,12 @@ export const products: Product[] = [
     price: 165,
     rating: 4,
     description: "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+    details: {
+      material: "98% cotton, 2% elastane",
+      fit: "Skinny fit",
+      care: "Machine wash cold inside out, do not bleach, line dry",
+      origin: "Vietnam",
+    },
     imgSrc: fadedSkinnyJeans,
     images: [
       fadedSkinnyJeans,
@@ -295,6 +391,12 @@ export const products: Product[] = [
     price: 220,
     rating: 5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Relaxed fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Bangladesh",
+    },
     imgSrc: blackStripedShirt,
     images: [
       blackStripedShirt,
@@ -313,6 +415,12 @@ export const products: Product[] = [
     oldPrice: 145,
     rating: 3,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Relaxed fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "India",
+    },
     imgSrc: checkeredShirt,
     images: [
       checkeredShirt,
@@ -330,6 +438,12 @@ export const products: Product[] = [
     price: 120,
     rating: 3.5,
     description: "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+    details: {
+      material: "95% cotton, 5% elastane",
+      fit: "Relaxed fit",
+      care: "Machine wash cold, reshape while damp, do not tumble dry",
+      origin: "Portugal",
+    },
     imgSrc: poloWithTippingDetails,
     images: [
       poloWithTippingDetails,
@@ -348,6 +462,12 @@ export const products: Product[] = [
     oldPrice: 180,
     rating: 4,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Relaxed fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Turkey",
+    },
     imgSrc: courageGraphicShirt,
     images: [
       courageGraphicShirt,
@@ -366,6 +486,12 @@ export const products: Product[] = [
     oldPrice: 227,
     rating: 4.5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Relaxed fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Italy",
+    },
     imgSrc: verticalStripedShirt,
     images: [
       verticalStripedShirt,
@@ -383,6 +509,12 @@ export const products: Product[] = [
     price: 135,
     rating: 5,
     description: "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+    details: {
+      material: "80% cotton, 20% polyester",
+      fit: "Loose fit",
+      care: "Machine wash at 30\u00b0C, wash with similar colors, tumble dry low",
+      origin: "Vietnam",
+    },
     imgSrc: looseFitBermudaShorts,
     images: [
       looseFitBermudaShorts,
@@ -400,6 +532,12 @@ export const products: Product[] = [
     price: 60,
     rating: 3,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Relaxed fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Bangladesh",
+    },
     imgSrc: gradientGraphicShirt,
     images: [
       gradientGraphicShirt,
@@ -418,6 +556,12 @@ export const products: Product[] = [
     oldPrice: 215,
     rating: 3.5,
     description: "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+    details: {
+      material: "98% cotton, 2% elastane",
+      fit: "Skinny fit",
+      care: "Machine wash cold inside out, do not bleach, line dry",
+      origin: "India",
+    },
     imgSrc: fadedSkinnyJeans,
     images: [
       fadedSkinnyJeans,
@@ -436,6 +580,12 @@ export const products: Product[] = [
     oldPrice: 280,
     rating: 4.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Tailored fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Portugal",
+    },
     imgSrc: blackStripedShirt,
     images: [
       blackStripedShirt,
@@ -453,6 +603,12 @@ export const products: Product[] = [
     price: 135,
     rating: 5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Tailored fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Turkey",
+    },
     imgSrc: checkeredShirt,
     images: [
       checkeredShirt,
@@ -471,6 +627,12 @@ export const products: Product[] = [
     oldPrice: 200,
     rating: 3,
     description: "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+    details: {
+      material: "95% cotton, 5% elastane",
+      fit: "Tailored fit",
+      care: "Machine wash cold, reshape while damp, do not tumble dry",
+      origin: "Italy",
+    },
     imgSrc: poloWithTippingDetails,
     images: [
       poloWithTippingDetails,
@@ -488,6 +650,12 @@ export const products: Product[] = [
     price: 190,
     rating: 3.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Tailored fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Vietnam",
+    },
     imgSrc: courageGraphicShirt,
     images: [
       courageGraphicShirt,
@@ -505,6 +673,12 @@ export const products: Product[] = [
     price: 227,
     rating: 4,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Tailored fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Bangladesh",
+    },
     imgSrc: verticalStripedShirt,
     images: [
       verticalStripedShirt,
@@ -523,6 +697,12 @@ export const products: Product[] = [
     oldPrice: 205,
     rating: 4.5,
     description: "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+    details: {
+      material: "80% cotton, 20% polyester",
+      fit: "Tailored fit",
+      care: "Machine wash at 30\u00b0C, wash with similar colors, tumble dry low",
+      origin: "India",
+    },
     imgSrc: looseFitBermudaShorts,
     images: [
       looseFitBermudaShorts,
@@ -540,6 +720,12 @@ export const products: Product[] = [
     price: 90,
     rating: 5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Tailored fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Portugal",
+    },
     imgSrc: gradientGraphicShirt,
     images: [
       gradientGraphicShirt,
@@ -557,6 +743,12 @@ export const products: Product[] = [
     price: 225,
     rating: 3,
     description: "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+    details: {
+      material: "98% cotton, 2% elastane",
+      fit: "Skinny fit",
+      care: "Machine wash cold inside out, do not bleach, line dry",
+      origin: "Turkey",
+    },
     imgSrc: fadedSkinnyJeans,
     images: [
       fadedSkinnyJeans,
@@ -575,6 +767,12 @@ export const products: Product[] = [
     oldPrice: 310,
     rating: 4,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Italy",
+    },
     imgSrc: blackStripedShirt,
     images: [
       blackStripedShirt,
@@ -592,6 +790,12 @@ export const products: Product[] = [
     price: 165,
     rating: 4.5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Vietnam",
+    },
     imgSrc: checkeredShirt,
     images: [
       checkeredShirt,
@@ -610,6 +814,12 @@ export const products: Product[] = [
     oldPrice: 230,
     rating: 5,
     description: "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+    details: {
+      material: "95% cotton, 5% elastane",
+      fit: "Regular fit",
+      care: "Machine wash cold, reshape while damp, do not tumble dry",
+      origin: "Bangladesh",
+    },
     imgSrc: poloWithTippingDetails,
     images: [
       poloWithTippingDetails,
@@ -628,6 +838,12 @@ export const products: Product[] = [
     oldPrice: 240,
     rating: 3,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "India",
+    },
     imgSrc: courageGraphicShirt,
     images: [
       courageGraphicShirt,
@@ -645,6 +861,12 @@ export const products: Product[] = [
     price: 257,
     rating: 3.5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Portugal",
+    },
     imgSrc: verticalStripedShirt,
     images: [
       verticalStripedShirt,
@@ -662,6 +884,12 @@ export const products: Product[] = [
     price: 195,
     rating: 4,
     description: "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+    details: {
+      material: "80% cotton, 20% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, wash with similar colors, tumble dry low",
+      origin: "Turkey",
+    },
     imgSrc: looseFitBermudaShorts,
     images: [
       looseFitBermudaShorts,
@@ -680,6 +908,12 @@ export const products: Product[] = [
     oldPrice: 170,
     rating: 4.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Italy",
+    },
     imgSrc: gradientGraphicShirt,
     images: [
       gradientGraphicShirt,
@@ -698,6 +932,12 @@ export const products: Product[] = [
     oldPrice: 275,
     rating: 5,
     description: "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+    details: {
+      material: "98% cotton, 2% elastane",
+      fit: "Skinny fit",
+      care: "Machine wash cold inside out, do not bleach, line dry",
+      origin: "Vietnam",
+    },
     imgSrc: fadedSkinnyJeans,
     images: [
       fadedSkinnyJeans,
@@ -715,6 +955,12 @@ export const products: Product[] = [
     price: 310,
     rating: 3.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Relaxed fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Bangladesh",
+    },
     imgSrc: blackStripedShirt,
     images: [
       blackStripedShirt,
@@ -733,6 +979,12 @@ export const products: Product[] = [
     oldPrice: 235,
     rating: 4,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Relaxed fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "India",
+    },
     imgSrc: checkeredShirt,
     images: [
       checkeredShirt,
@@ -750,6 +1002,12 @@ export const products: Product[] = [
     price: 210,
     rating: 4.5,
     description: "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+    details: {
+      material: "95% cotton, 5% elastane",
+      fit: "Relaxed fit",
+      care: "Machine wash cold, reshape while damp, do not tumble dry",
+      origin: "Portugal",
+    },
     imgSrc: poloWithTippingDetails,
     images: [
       poloWithTippingDetails,
@@ -767,6 +1025,12 @@ export const products: Product[] = [
     price: 250,
     rating: 5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Relaxed fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Turkey",
+    },
     imgSrc: courageGraphicShirt,
     images: [
       courageGraphicShirt,
@@ -785,6 +1049,12 @@ export const products: Product[] = [
     oldPrice: 317,
     rating: 3,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Relaxed fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Italy",
+    },
     imgSrc: verticalStripedShirt,
     images: [
       verticalStripedShirt,
@@ -802,6 +1072,12 @@ export const products: Product[] = [
     price: 225,
     rating: 3.5,
     description: "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+    details: {
+      material: "80% cotton, 20% polyester",
+      fit: "Loose fit",
+      care: "Machine wash at 30\u00b0C, wash with similar colors, tumble dry low",
+      origin: "Vietnam",
+    },
     imgSrc: looseFitBermudaShorts,
     images: [
       looseFitBermudaShorts,
@@ -819,6 +1095,12 @@ export const products: Product[] = [
     price: 150,
     rating: 4,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Relaxed fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Bangladesh",
+    },
     imgSrc: gradientGraphicShirt,
     images: [
       gradientGraphicShirt,
@@ -837,6 +1119,12 @@ export const products: Product[] = [
     oldPrice: 305,
     rating: 4.5,
     description: "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+    details: {
+      material: "98% cotton, 2% elastane",
+      fit: "Skinny fit",
+      care: "Machine wash cold inside out, do not bleach, line dry",
+      origin: "India",
+    },
     imgSrc: fadedSkinnyJeans,
     images: [
       fadedSkinnyJeans,
@@ -854,6 +1142,12 @@ export const products: Product[] = [
     price: 340,
     rating: 3,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Portugal",
+    },
     imgSrc: blackStripedShirt,
     images: [
       blackStripedShirt,
@@ -872,6 +1166,12 @@ export const products: Product[] = [
     oldPrice: 265,
     rating: 3.5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Turkey",
+    },
     imgSrc: checkeredShirt,
     images: [
       checkeredShirt,
@@ -890,6 +1190,12 @@ export const products: Product[] = [
     oldPrice: 290,
     rating: 4,
     description: "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+    details: {
+      material: "95% cotton, 5% elastane",
+      fit: "Regular fit",
+      care: "Machine wash cold, reshape while damp, do not tumble dry",
+      origin: "Italy",
+    },
     imgSrc: poloWithTippingDetails,
     images: [
       poloWithTippingDetails,
@@ -907,6 +1213,12 @@ export const products: Product[] = [
     price: 280,
     rating: 4.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Vietnam",
+    },
     imgSrc: courageGraphicShirt,
     images: [
       courageGraphicShirt,
@@ -924,6 +1236,12 @@ export const products: Product[] = [
     price: 317,
     rating: 5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Bangladesh",
+    },
     imgSrc: verticalStripedShirt,
     images: [
       verticalStripedShirt,
@@ -942,6 +1260,12 @@ export const products: Product[] = [
     oldPrice: 295,
     rating: 3,
     description: "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+    details: {
+      material: "80% cotton, 20% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, wash with similar colors, tumble dry low",
+      origin: "India",
+    },
     imgSrc: looseFitBermudaShorts,
     images: [
       looseFitBermudaShorts,
@@ -960,6 +1284,12 @@ export const products: Product[] = [
     oldPrice: 230,
     rating: 3.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Portugal",
+    },
     imgSrc: gradientGraphicShirt,
     images: [
       gradientGraphicShirt,
@@ -977,6 +1307,12 @@ export const products: Product[] = [
     price: 315,
     rating: 4,
     description: "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+    details: {
+      material: "98% cotton, 2% elastane",
+      fit: "Skinny fit",
+      care: "Machine wash cold inside out, do not bleach, line dry",
+      origin: "Turkey",
+    },
     imgSrc: fadedSkinnyJeans,
     images: [
       fadedSkinnyJeans,
@@ -995,6 +1331,12 @@ export const products: Product[] = [
     oldPrice: 400,
     rating: 5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Slim fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Italy",
+    },
     imgSrc: blackStripedShirt,
     images: [
       blackStripedShirt,
@@ -1012,6 +1354,12 @@ export const products: Product[] = [
     price: 255,
     rating: 3,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Slim fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Vietnam",
+    },
     imgSrc: checkeredShirt,
     images: [
       checkeredShirt,
@@ -1029,6 +1377,12 @@ export const products: Product[] = [
     price: 270,
     rating: 3.5,
     description: "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+    details: {
+      material: "95% cotton, 5% elastane",
+      fit: "Slim fit",
+      care: "Machine wash cold, reshape while damp, do not tumble dry",
+      origin: "Bangladesh",
+    },
     imgSrc: poloWithTippingDetails,
     images: [
       poloWithTippingDetails,
@@ -1047,6 +1401,12 @@ export const products: Product[] = [
     oldPrice: 330,
     rating: 4,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Slim fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "India",
+    },
     imgSrc: courageGraphicShirt,
     images: [
       courageGraphicShirt,
@@ -1064,6 +1424,12 @@ export const products: Product[] = [
     price: 347,
     rating: 4.5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Slim fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Portugal",
+    },
     imgSrc: verticalStripedShirt,
     images: [
       verticalStripedShirt,
@@ -1081,6 +1447,12 @@ export const products: Product[] = [
     price: 285,
     rating: 5,
     description: "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+    details: {
+      material: "80% cotton, 20% polyester",
+      fit: "Slim fit",
+      care: "Machine wash at 30\u00b0C, wash with similar colors, tumble dry low",
+      origin: "Turkey",
+    },
     imgSrc: looseFitBermudaShorts,
     images: [
       looseFitBermudaShorts,
@@ -1099,6 +1471,12 @@ export const products: Product[] = [
     oldPrice: 260,
     rating: 3,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Slim fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Italy",
+    },
     imgSrc: gradientGraphicShirt,
     images: [
       gradientGraphicShirt,
@@ -1116,6 +1494,12 @@ export const products: Product[] = [
     price: 345,
     rating: 3.5,
     description: "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+    details: {
+      material: "98% cotton, 2% elastane",
+      fit: "Skinny fit",
+      care: "Machine wash cold inside out, do not bleach, line dry",
+      origin: "Vietnam",
+    },
     imgSrc: fadedSkinnyJeans,
     images: [
       fadedSkinnyJeans,
@@ -1134,6 +1518,12 @@ export const products: Product[] = [
     oldPrice: 420,
     rating: 4.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Bangladesh",
+    },
     imgSrc: blackStripedShirt,
     images: [
       blackStripedShirt,
@@ -1152,6 +1542,12 @@ export const products: Product[] = [
     oldPrice: 315,
     rating: 5,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "India",
+    },
     imgSrc: checkeredShirt,
     images: [
       checkeredShirt,
@@ -1169,6 +1565,12 @@ export const products: Product[] = [
     price: 290,
     rating: 3,
     description: "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+    details: {
+      material: "95% cotton, 5% elastane",
+      fit: "Regular fit",
+      care: "Machine wash cold, reshape while damp, do not tumble dry",
+      origin: "Portugal",
+    },
     imgSrc: poloWithTippingDetails,
     images: [
       poloWithTippingDetails,
@@ -1186,6 +1588,12 @@ export const products: Product[] = [
     price: 330,
     rating: 3.5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Turkey",
+    },
     imgSrc: courageGraphicShirt,
     images: [
       courageGraphicShirt,
@@ -1204,6 +1612,12 @@ export const products: Product[] = [
     oldPrice: 397,
     rating: 4,
     description: "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+    details: {
+      material: "70% cotton, 30% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, gentle cycle, warm iron if needed",
+      origin: "Italy",
+    },
     imgSrc: verticalStripedShirt,
     images: [
       verticalStripedShirt,
@@ -1222,6 +1636,12 @@ export const products: Product[] = [
     oldPrice: 345,
     rating: 4.5,
     description: "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+    details: {
+      material: "80% cotton, 20% polyester",
+      fit: "Regular fit",
+      care: "Machine wash at 30\u00b0C, wash with similar colors, tumble dry low",
+      origin: "Vietnam",
+    },
     imgSrc: looseFitBermudaShorts,
     images: [
       looseFitBermudaShorts,
@@ -1239,6 +1659,12 @@ export const products: Product[] = [
     price: 230,
     rating: 5,
     description: "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+    details: {
+      material: "100% cotton",
+      fit: "Regular fit",
+      care: "Machine wash cold, wash with similar colors, do not bleach",
+      origin: "Bangladesh",
+    },
     imgSrc: gradientGraphicShirt,
     images: [
       gradientGraphicShirt,
@@ -1257,6 +1683,12 @@ export const products: Product[] = [
     oldPrice: 385,
     rating: 3,
     description: "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+    details: {
+      material: "98% cotton, 2% elastane",
+      fit: "Skinny fit",
+      care: "Machine wash cold inside out, do not bleach, line dry",
+      origin: "India",
+    },
     imgSrc: fadedSkinnyJeans,
     images: [
       fadedSkinnyJeans,
@@ -1267,5 +1699,5 @@ export const products: Product[] = [
     category: "new-arrivals",
     colors: ["yellow", "black", "perple"],
     sizes: ["3X-Large", "4X-Large"],
-  }
+  },
 ];

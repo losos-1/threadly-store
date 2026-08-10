@@ -1,0 +1,50 @@
+.product-reviews{
+    text-align: center;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: fluid(24,20);
+
+        &-left{
+            display: flex;
+            gap: 8px;
+            color: var(--color-black);
+        }
+        &-right{
+            display: flex;
+            gap: 10px;
+        }
+    }
+    &__drop-menu{
+        border: none;
+        border-radius: var(--border-radius-m);
+        background-color: var(--color-bg-button);
+
+        display: flex;
+        align-items: center;
+        gap:20px;
+
+        padding: 12px 20px;
+        
+    }
+    &__content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: fluid(20,16);
+
+        margin-bottom: fluid(20,36);
+
+        @include mobile{
+            grid-template-columns: 1fr;
+        }
+    }
+}
+.arrow{
+    
+    transition: var(--transition-duration);
+    &--active{
+        transform: rotate(-90deg);
+        transition: var(--transition-duration);
+    }
+}

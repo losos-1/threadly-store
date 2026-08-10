@@ -8,6 +8,7 @@ import ProductGallery from '@/components/ProductGallery';
 
 import './ProductPage.scss';
 import ProductPageInfo from '@/components/ProductPageInfo';
+import ProductTabs from '@/sections/ProductPage/ProductTabs';
 
 export default function ProductPage() {
   const [selectedColor, setSelectedColor] = useState<string | null>(null);
@@ -26,30 +27,31 @@ export default function ProductPage() {
 
   return (
     <section className="product-page wrapper">
+      <div className='product-page__top'>
+            <ProductGallery
+            imgSrc={product.images}
+          />
 
-      <ProductGallery
-        imgSrc={product.images}
-      />
+          <ProductPageInfo
+            title={product.title}
+            rating={product.rating}
+            price={product.price}
+            oldPrice={product.oldPrice}
+            description={product.description}
+            colors={product.colors}
+            sizes={product.sizes}
 
-      <ProductPageInfo
-        title={product.title}
-        rating={product.rating}
-        price={product.price}
-        oldPrice={product.oldPrice}
-        description={product.description}
-        colors={product.colors}
-        sizes={product.sizes}
+            selectedColor={selectedColor}
+            onColorChange={setSelectedColor}
 
-        selectedColor={selectedColor}
-        onColorChange={setSelectedColor}
+            selectedSize={selectedSize}
+            onSizeChange={setSelectedSize}
 
-        selectedSize={selectedSize}
-        onSizeChange={setSelectedSize}
-
-        quantity={quantity}
-        onQuantityChange={setQuantity}
-      />
-
+            quantity={quantity}
+            onQuantityChange={setQuantity}
+          />
+      </div>
+      <ProductTabs id = {Number(productId)} category = {product.category}/>
     </section>
   );
 }

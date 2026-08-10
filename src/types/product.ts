@@ -22,6 +22,13 @@ export type ProductSize =
 
 export type ProductCategory = "new-arrivals" | "top-selling";
 
+type ProductDetails = {
+  material: string;
+  fit: string;
+  care: string;
+  origin: string;
+};
+
 export type Product = {
   id: number;
   title: string;
@@ -40,4 +47,6 @@ export type Product = {
 
   colors: ProductColor[];
   sizes: ProductSize[];
+
+  details: ProductDetails;
 };

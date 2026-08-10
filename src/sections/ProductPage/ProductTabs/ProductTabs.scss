@@ -1,0 +1,31 @@
+.product-tabs{
+    margin-top: fluid(80,50);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    
+    &__tab{
+        text-align: center;
+
+        border: none;
+        background-color: transparent;
+        
+        color: var(--color-text);
+        border-bottom: var(--border);
+        padding-bottom: fluid(24,20);
+        margin-bottom: fluid(24,20);
+        cursor: pointer;
+        
+        &:hover{
+            color: var(--color-text-opacity80);
+        }
+        &--active{
+            color: var(--color-black);
+            border-bottom: var(--border-active);
+        }
+        
+    }
+
+}

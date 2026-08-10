@@ -6,7 +6,7 @@ import "./FeedbackCard.scss";
 type FeedbackCardProps = {
   name: string;
   text: string;
-  rating: Rating;
+  rating: number;
 };
 
 export default function FeedbackCard({
