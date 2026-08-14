@@ -6,11 +6,15 @@ import ColorBlock from '../Sidebar/ColorBlock';
 import './ProductPageInfo.scss';
 import SizeBlock from '../Sidebar/SizeBlock';
 
-import minus from '@/assets/icons/UI/minus.svg'
-import plus from '@/assets/icons/UI/plus.svg'
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import Button from '../UI/Button';
+
+import { useCart } from '@/hooks/useCart';
 type ProductPageInfoProps = {
+  id: number;
+  imgSrc: string;
+  discount:number;
+
   title: string;
   rating: number;
   price: number;
@@ -32,6 +36,9 @@ type ProductPageInfoProps = {
 };
 
 export default function ProductPageInfo({
+  discount,
+  id,
+  imgSrc,
   title,
   rating,
   price,
@@ -65,6 +72,25 @@ export default function ProductPageInfo({
     onQuantityChange(quantity - 1)
   }
   
+  const { addToCart } = useCart();
+
+  const handleCart = ()=>{
+    if (!selectedColor || !selectedSize || quantity === 0) {
+      return;
+    }
+    const product = {
+      id,
+      title,
+      price,
+      imgSrc,
+      color: selectedColor,
+      size: selectedSize,
+      quantity,
+      discount,
+    };
+
+    addToCart(product)
+  }
   return (
     <article className="product-info">
 
@@ -147,6 +173,7 @@ export default function ProductPageInfo({
           className = 'product-info__add-button'
           title = 'Add to Cart'
           size = "wide"
+          onClick={handleCart}
         />
       </div>
     </article>

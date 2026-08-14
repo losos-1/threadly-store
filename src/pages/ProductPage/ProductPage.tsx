@@ -24,7 +24,8 @@ export default function ProductPage() {
   if (!product) {
     return <div>Product not found</div>;
   }
-
+  const discount = (product.oldPrice && 
+  product.oldPrice - product.price) || 0
   return (
     <section className="product-page wrapper">
       <div className='product-page__top'>
@@ -33,6 +34,9 @@ export default function ProductPage() {
           />
 
           <ProductPageInfo
+            discount = {discount}
+            id = {product.id}
+            imgSrc = {product.imgSrc}
             title={product.title}
             rating={product.rating}
             price={product.price}

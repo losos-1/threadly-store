@@ -8,6 +8,7 @@ import profileIcon from "@/assets/icons/header/profile.svg";
 import shopIcon from "@/assets/icons/header/shop.svg";
 
 import "./Header.scss";
+import { useCart } from "@/hooks/useCart";
 
 type NavigationLink = {
   title: string;
@@ -31,7 +32,9 @@ const dropLinks: NavigationLink[] = [
 export default function Header() {
   const [isDropActive, setIsDropActive] = useState(false);
   const dropRef = useRef<HTMLLIElement | null>(null);
+  const {cartItems} = useCart()
 
+  const cntOfProduct = cartItems.reduce((sum,item) =>(sum + item.quantity),0)
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -134,11 +137,14 @@ export default function Header() {
 
         <div className="header__account">
           <NavLink
-            className="header__account-link"
+            className="header__basket"
             to="/cart"
             aria-label="Go to cart"
           >
             <img src={shopIcon} alt="" aria-hidden="true" />
+            {cntOfProduct > 0 &&(
+              <span className="header__basket-cnt">{cntOfProduct}</span>
+            )}
           </NavLink>
 
           <NavLink

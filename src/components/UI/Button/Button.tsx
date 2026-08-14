@@ -6,7 +6,7 @@ import "./Button.scss";
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   title: string;
   variant?: "primary" | "outline";
-  size?: "default" | "average" | "wide";
+  size?: "small" | "default" | "average" | "wide";
 };
 
 export default function Button({

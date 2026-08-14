@@ -1,0 +1,16 @@
+.basket-products{
+    border: var(--border);
+    border-radius: var(--border-radius-s);
+
+    padding: fluid(20,14) fluid(24,14);
+
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child){
+        border-bottom: var(--border);
+
+        margin-bottom: fluid(24,16);
+        padding-bottom: fluid(24,16);
+    }
+}

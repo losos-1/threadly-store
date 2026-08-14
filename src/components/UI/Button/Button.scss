@@ -5,7 +5,8 @@
   border-radius: 999px;
   font-size: 16px;
   font-weight: 500;
-
+  white-space:nowrap;
+  
   &:hover {
     translate: 0 -1px;
   }
@@ -30,5 +31,8 @@
   }
   &--wide{
     padding:fluid(15,12) fluid(157,81) ;
+  }
+  &--small{
+    padding: fluid(12,10) fluid(38,25);
   }
 }

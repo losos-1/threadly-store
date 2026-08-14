@@ -1,0 +1,11 @@
+.basket-page{
+
+    &__title{
+        margin-bottom: 24px;
+    }
+    &__content{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+}
