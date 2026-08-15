@@ -31,6 +31,7 @@ export default function Hero() {
             className="hero__button"
             title="Shop Now"
             size="wide"
+            toCatalogy
           />
 
           <div className="hero__stats">

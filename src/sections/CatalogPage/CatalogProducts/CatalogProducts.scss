@@ -1,4 +1,6 @@
-.catalog__products{
+.catalog{
+
+    &__products{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: fluid(20,14);
@@ -6,4 +8,31 @@
     border-bottom: var(--border);
     padding-bottom: fluid(32,24);
     margin-bottom: 20px;
+    }
+    &__scroll-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+    &__scroll-btn{
+        border: var(--border);
+        border-radius: var(--border-radius-xs);
+        padding: 8px fluid(14,10);
+        background-color: transparent;
+
+        display: flex;
+        align-items: center;
+        gap:8px;
+
+        &--left img{
+            transform: rotate(180deg);
+        }
+
+        &:hover{
+            transform: scale(1.02);
+            border-color:var(--color-text-opacity40);
+        }
+    }
 }

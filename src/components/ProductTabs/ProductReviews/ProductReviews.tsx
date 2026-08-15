@@ -5,13 +5,11 @@ import type { ProductReview } from '@/data/reviews';
 import { useState } from 'react';
 import classNames from 'classnames';
 import FeedbackCard from '@/components/FeedbackCard';
-import ProductCategory from '@/components/ProductCategory';
 
 type ProductReviewsProps = {
     reviewes:ProductReview[];
-    productCategory:string;
 }
-export default function ProductReviews({reviewes,productCategory} : ProductReviewsProps){
+export default function ProductReviews({reviewes,} : ProductReviewsProps){
 
     const [isDrop,setIsDrop] = useState<boolean>(false)
 
@@ -64,10 +62,7 @@ export default function ProductReviews({reviewes,productCategory} : ProductRevie
                 title='Load More Reviews'
                 variant = 'outline'
             />
-            <ProductCategory
-                title = 'You might also like'
-                category = {productCategory}
-            />
+            
         </article>
     )
 }

@@ -8,4 +8,13 @@
         grid-template-columns: 2fr 1fr;
         gap: 20px;
     }
+    &__error{
+        text-align: center;
+        text-justify:auto;
+        margin-block:120px;
+
+        h2{
+            margin-bottom: 25px;
+        }
+    }
 }

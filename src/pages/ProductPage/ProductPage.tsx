@@ -13,7 +13,7 @@ import ProductTabs from '@/sections/ProductPage/ProductTabs';
 export default function ProductPage() {
   const [selectedColor, setSelectedColor] = useState<string | null>(null);
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
-  const [quantity,setQuantity] = useState<number>(0)
+  const [quantity,setQuantity] = useState<number>(1)
   
   const { productId } = useParams();
 

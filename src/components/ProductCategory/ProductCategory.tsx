@@ -33,6 +33,7 @@ export default function ProductCategory({
         title="View All"
         variant="outline"
         size="wide"
+        toCatalogy
       />
     </section>
   );

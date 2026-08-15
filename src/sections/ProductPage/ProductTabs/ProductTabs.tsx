@@ -5,6 +5,9 @@ import ProductReviews from '@/components/ProductTabs/ProductReviews';
 import ProductFaqs from '@/components/ProductTabs/ProductFaqs';
 import classNames from 'classnames';
 import {reviews} from '@/data/reviews'
+import {faqs} from '@/data/faqs'
+import {products} from '@/data/products'
+import ProductCategory from '@/components/ProductCategory';
 
 type Tab = 'details' | 'reviews' | 'faqs';
 
@@ -16,7 +19,10 @@ export default function ProductTabs({id,category}:ProductTabsProps){
 
     const [activeTab,setActiveTab] = useState<Tab>('reviews')
 
-    const reviewById = reviews.filter((review) => review.productId == id)
+    const reviewById = reviews.filter((review) => review.productId === id)
+    const faqsById = faqs.filter((item) => item.productId === id)
+    const detailsById = products.find((item) => item.id === id)
+
     return(
         <section className=''> 
             <div className="product-tabs">
@@ -43,13 +49,17 @@ export default function ProductTabs({id,category}:ProductTabsProps){
                     FAQs
                 </button>
             </div>
-            {activeTab === 'details' && <ProductDetails />}
+            {activeTab === 'details' && <ProductDetails 
+            details = {detailsById?.details}/>}
 
             {activeTab === 'reviews' && <ProductReviews 
-            reviewes = {reviewById}
-            productCategory ={category}/>}
+            reviewes = {reviewById}/>}
 
-            {activeTab === 'faqs' && <ProductFaqs />}
+            {activeTab === 'faqs' && <ProductFaqs faqs = {faqsById}/>}
+            <ProductCategory
+                title = 'You might also like'
+                category = {category}
+            />
         </section>
     )
 }

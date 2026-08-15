@@ -2,7 +2,7 @@ import {useState,useMemo } from 'react';
 import { products } from '@/data/products';
 import Sidebar from '@/sections/CatalogPage/Sidebar';
 import arrow from '@/assets/icons/arrow.svg'
-import longArrow from '@/assets/icons/arrow-long.svg'
+
 
 import {
   DEFAULT_CATALOG_FILTERS,
@@ -131,17 +131,7 @@ const SORT_OPTIONS: { value: SortType; label: string }[] = [
           products={sortedProducts}
           filters={filters}
         />
-        <div className="catalog-page__scroll-bar">
-            <button className='catalog-page__scroll-btn'>
-              <img src={longArrow} alt="" />
-              <span>Previous</span>
-            </button>
-
-            <button className='catalog-page__scroll-btn catalog-page__scroll-btn--left'>
-              <span>Next</span>
-              <img src={longArrow} alt="" />
-            </button>
-          </div>
+        
       </div>
     </section>
   );

@@ -1,0 +1,33 @@
+.faq-cart{
+    border: var(--border);
+    padding:fluid(28,24) fluid(32,25);
+
+    width: 100%;
+
+    background-color: transparent;
+
+    text-align: start;
+    strong{
+        color: var(--color-black);
+    }
+    &__question{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__arrow{
+        transform: rotate(-90deg);
+
+        &--active{
+            transform: rotate(0deg);
+        }
+    }
+    &__answer{
+        transition: var(--transition-duration);
+        transform: translateY(-8px);
+
+        border-top: var(--border);
+        margin-top: fluid(16,12);
+        padding-top: fluid(16,12);
+    }
+}

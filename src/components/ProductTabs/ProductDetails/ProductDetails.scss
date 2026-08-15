@@ -1,0 +1,13 @@
+.product-details{
+    border: var(--border);
+    padding: 18px;
+
+    text-align: start;
+
+    strong{
+        color: var(--color-black);
+
+        display: flex;
+        gap: 8px;
+    }
+}

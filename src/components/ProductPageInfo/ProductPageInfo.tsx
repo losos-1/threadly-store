@@ -50,7 +50,7 @@ export default function ProductPageInfo({
   onColorChange,
   selectedSize,
   onSizeChange,
-  quantity = 0,
+  quantity = 1,
   onQuantityChange,
 }: ProductPageInfoProps) {
 
@@ -59,14 +59,14 @@ export default function ProductPageInfo({
     : null;
 
   useEffect(() =>{
-    onQuantityChange(0)
+    onQuantityChange(1)
   },[selectedColor, selectedSize])
 
   const handleIncreaseQuantity = () =>{
     onQuantityChange(quantity + 1)
   }
   const handleDecreaseQuantity = () =>{
-    if(!quantity){
+    if(quantity === 1){
       return
     }
     onQuantityChange(quantity - 1)

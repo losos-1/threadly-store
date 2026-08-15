@@ -44,7 +44,7 @@
   &__stats-item {
     position: relative;
     padding-inline: fluid(32, 16);
-
+    white-space: nowrap;
     &:first-child {
       padding-left: 0;
     }

@@ -22,7 +22,7 @@ export type ProductSize =
 
 export type ProductCategory = "new-arrivals" | "top-selling";
 
-type ProductDetails = {
+export type ProductDetails = {
   material: string;
   fit: string;
   care: string;
