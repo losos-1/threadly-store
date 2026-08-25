@@ -1,0 +1,1544 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Black Striped T-shirt",
+      "price": 240,
+      "rating": 3.5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Portugal"
+      },
+      "imgSrc": "/images/Product/Black Striped T-shirt.jpg",
+      "images": [
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Checkered Shirt",
+      "price": 125,
+      "rating": 4,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Turkey"
+      },
+      "imgSrc": "/images/Product/CHECKERED SHIRT.jpg",
+      "images": [
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "white",
+        "azure"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Polo with Tipping Details",
+      "price": 140,
+      "oldPrice": 190,
+      "rating": 4.5,
+      "description": "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+      "details": {
+        "material": "95% cotton, 5% elastane",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, reshape while damp, do not tumble dry",
+        "origin": "Italy"
+      },
+      "imgSrc": "/images/Product/Polo with Tipping Details.jpg",
+      "images": [
+        "/images/Product/Polo with Tipping Details.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "black",
+        "perple",
+        "yellow"
+      ],
+      "sizes": [
+        "X-Large",
+        "XX-Large"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Courage Graphic T-shirt",
+      "price": 180,
+      "rating": 5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Vietnam"
+      },
+      "imgSrc": "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+      "images": [
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/Polo with Tipping Details.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "blue",
+        "orange"
+      ],
+      "sizes": [
+        "3X-Large",
+        "4X-Large",
+        "XX-Small"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Vertical Striped Shirt",
+      "price": 217,
+      "oldPrice": 247,
+      "rating": 3,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Bangladesh"
+      },
+      "imgSrc": "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+      "images": [
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "azure",
+        "pink"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Loose Fit Bermuda Shorts",
+      "price": 155,
+      "oldPrice": 195,
+      "rating": 3.5,
+      "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+      "details": {
+        "material": "80% cotton, 20% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, wash with similar colors, tumble dry low",
+        "origin": "India"
+      },
+      "imgSrc": "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+      "images": [
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "perple",
+        "yellow",
+        "black"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Gradient Graphic T-shirt",
+      "price": 80,
+      "rating": 4,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Portugal"
+      },
+      "imgSrc": "/images/Product/Gradient Graphic T-shirt.jpg",
+      "images": [
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "orange",
+        "red"
+      ],
+      "sizes": [
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Faded Skinny Jeans",
+      "price": 215,
+      "rating": 4.5,
+      "description": "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+      "details": {
+        "material": "98% cotton, 2% elastane",
+        "fit": "Skinny fit",
+        "care": "Machine wash cold inside out, do not bleach, line dry",
+        "origin": "Turkey"
+      },
+      "imgSrc": "/images/Product/FADED SKINNY JEANS.jpg",
+      "images": [
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "XX-Large",
+        "3X-Large",
+        "4X-Large",
+        "XX-Small"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Classic Black Striped T-shirt",
+      "price": 190,
+      "oldPrice": 220,
+      "rating": 3,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Italy"
+      },
+      "imgSrc": "/images/Product/Black Striped T-shirt.jpg",
+      "images": [
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "yellow",
+        "black",
+        "perple"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Classic Checkered Shirt",
+      "price": 75,
+      "oldPrice": 115,
+      "rating": 3.5,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Vietnam"
+      },
+      "imgSrc": "/images/Product/CHECKERED SHIRT.jpg",
+      "images": [
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Classic Polo with Tipping Details",
+      "price": 90,
+      "rating": 4,
+      "description": "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+      "details": {
+        "material": "95% cotton, 5% elastane",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, reshape while damp, do not tumble dry",
+        "origin": "Bangladesh"
+      },
+      "imgSrc": "/images/Product/Polo with Tipping Details.jpg",
+      "images": [
+        "/images/Product/Polo with Tipping Details.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "white",
+        "azure"
+      ],
+      "sizes": [
+        "Large",
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Classic Courage Graphic T-shirt",
+      "price": 130,
+      "oldPrice": 150,
+      "rating": 4.5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "India"
+      },
+      "imgSrc": "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+      "images": [
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/Polo with Tipping Details.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "black",
+        "perple",
+        "yellow"
+      ],
+      "sizes": [
+        "XX-Large",
+        "3X-Large"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Classic Vertical Striped Shirt",
+      "price": 167,
+      "rating": 5,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Portugal"
+      },
+      "imgSrc": "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+      "images": [
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "blue",
+        "orange"
+      ],
+      "sizes": [
+        "4X-Large",
+        "XX-Small",
+        "X-Small"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Classic Loose Fit Bermuda Shorts",
+      "price": 105,
+      "rating": 3,
+      "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+      "details": {
+        "material": "80% cotton, 20% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, wash with similar colors, tumble dry low",
+        "origin": "Turkey"
+      },
+      "imgSrc": "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+      "images": [
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "azure",
+        "pink"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Classic Gradient Graphic T-shirt",
+      "price": 55,
+      "oldPrice": 105,
+      "rating": 3.5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Italy"
+      },
+      "imgSrc": "/images/Product/Gradient Graphic T-shirt.jpg",
+      "images": [
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "perple",
+        "yellow",
+        "black"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Classic Faded Skinny Jeans",
+      "price": 165,
+      "rating": 4,
+      "description": "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+      "details": {
+        "material": "98% cotton, 2% elastane",
+        "fit": "Skinny fit",
+        "care": "Machine wash cold inside out, do not bleach, line dry",
+        "origin": "Vietnam"
+      },
+      "imgSrc": "/images/Product/FADED SKINNY JEANS.jpg",
+      "images": [
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "orange",
+        "red"
+      ],
+      "sizes": [
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Relaxed Black Striped T-shirt",
+      "price": 220,
+      "rating": 5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Relaxed fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Bangladesh"
+      },
+      "imgSrc": "/images/Product/Black Striped T-shirt.jpg",
+      "images": [
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "4X-Large",
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Relaxed Checkered Shirt",
+      "price": 105,
+      "oldPrice": 145,
+      "rating": 3,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Relaxed fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "India"
+      },
+      "imgSrc": "/images/Product/CHECKERED SHIRT.jpg",
+      "images": [
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "yellow",
+        "black",
+        "perple"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Relaxed Polo with Tipping Details",
+      "price": 120,
+      "rating": 3.5,
+      "description": "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+      "details": {
+        "material": "95% cotton, 5% elastane",
+        "fit": "Relaxed fit",
+        "care": "Machine wash cold, reshape while damp, do not tumble dry",
+        "origin": "Portugal"
+      },
+      "imgSrc": "/images/Product/Polo with Tipping Details.jpg",
+      "images": [
+        "/images/Product/Polo with Tipping Details.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Relaxed Courage Graphic T-shirt",
+      "price": 160,
+      "oldPrice": 180,
+      "rating": 4,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Relaxed fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Turkey"
+      },
+      "imgSrc": "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+      "images": [
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/Polo with Tipping Details.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "white",
+        "azure"
+      ],
+      "sizes": [
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Relaxed Vertical Striped Shirt",
+      "price": 197,
+      "oldPrice": 227,
+      "rating": 4.5,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Relaxed fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Italy"
+      },
+      "imgSrc": "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+      "images": [
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "black",
+        "perple",
+        "yellow"
+      ],
+      "sizes": [
+        "3X-Large",
+        "4X-Large"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Relaxed Loose Fit Bermuda Shorts",
+      "price": 135,
+      "rating": 5,
+      "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+      "details": {
+        "material": "80% cotton, 20% polyester",
+        "fit": "Loose fit",
+        "care": "Machine wash at 30°C, wash with similar colors, tumble dry low",
+        "origin": "Vietnam"
+      },
+      "imgSrc": "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+      "images": [
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "blue",
+        "orange"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Relaxed Gradient Graphic T-shirt",
+      "price": 60,
+      "rating": 3,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Relaxed fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Bangladesh"
+      },
+      "imgSrc": "/images/Product/Gradient Graphic T-shirt.jpg",
+      "images": [
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "azure",
+        "pink"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Relaxed Faded Skinny Jeans",
+      "price": 195,
+      "oldPrice": 215,
+      "rating": 3.5,
+      "description": "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+      "details": {
+        "material": "98% cotton, 2% elastane",
+        "fit": "Skinny fit",
+        "care": "Machine wash cold inside out, do not bleach, line dry",
+        "origin": "India"
+      },
+      "imgSrc": "/images/Product/FADED SKINNY JEANS.jpg",
+      "images": [
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "perple",
+        "yellow",
+        "black"
+      ],
+      "sizes": [
+        "Large",
+        "X-Large"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Premium Black Striped T-shirt",
+      "price": 250,
+      "oldPrice": 280,
+      "rating": 4.5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Tailored fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Portugal"
+      },
+      "imgSrc": "/images/Product/Black Striped T-shirt.jpg",
+      "images": [
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "orange",
+        "red"
+      ],
+      "sizes": [
+        "3X-Large",
+        "4X-Large",
+        "XX-Small"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Premium Checkered Shirt",
+      "price": 135,
+      "rating": 5,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Tailored fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Turkey"
+      },
+      "imgSrc": "/images/Product/CHECKERED SHIRT.jpg",
+      "images": [
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Premium Polo with Tipping Details",
+      "price": 150,
+      "oldPrice": 200,
+      "rating": 3,
+      "description": "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+      "details": {
+        "material": "95% cotton, 5% elastane",
+        "fit": "Tailored fit",
+        "care": "Machine wash cold, reshape while damp, do not tumble dry",
+        "origin": "Italy"
+      },
+      "imgSrc": "/images/Product/Polo with Tipping Details.jpg",
+      "images": [
+        "/images/Product/Polo with Tipping Details.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "yellow",
+        "black",
+        "perple"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Premium Courage Graphic T-shirt",
+      "price": 190,
+      "rating": 3.5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Tailored fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Vietnam"
+      },
+      "imgSrc": "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+      "images": [
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/Polo with Tipping Details.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "sizes": [
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Premium Vertical Striped Shirt",
+      "price": 227,
+      "rating": 4,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Tailored fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Bangladesh"
+      },
+      "imgSrc": "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+      "images": [
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "white",
+        "azure"
+      ],
+      "sizes": [
+        "XX-Large",
+        "3X-Large",
+        "4X-Large",
+        "XX-Small"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Premium Loose Fit Bermuda Shorts",
+      "price": 165,
+      "oldPrice": 205,
+      "rating": 4.5,
+      "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+      "details": {
+        "material": "80% cotton, 20% polyester",
+        "fit": "Tailored fit",
+        "care": "Machine wash at 30°C, wash with similar colors, tumble dry low",
+        "origin": "India"
+      },
+      "imgSrc": "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+      "images": [
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "black",
+        "perple",
+        "yellow"
+      ],
+      "sizes": [
+        "4X-Large",
+        "XX-Small"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Premium Gradient Graphic T-shirt",
+      "price": 90,
+      "rating": 5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Tailored fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Portugal"
+      },
+      "imgSrc": "/images/Product/Gradient Graphic T-shirt.jpg",
+      "images": [
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "blue",
+        "orange"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Premium Faded Skinny Jeans",
+      "price": 225,
+      "rating": 3,
+      "description": "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+      "details": {
+        "material": "98% cotton, 2% elastane",
+        "fit": "Skinny fit",
+        "care": "Machine wash cold inside out, do not bleach, line dry",
+        "origin": "Turkey"
+      },
+      "imgSrc": "/images/Product/FADED SKINNY JEANS.jpg",
+      "images": [
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "azure",
+        "pink"
+      ],
+      "sizes": [
+        "Medium",
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Vintage Black Striped T-shirt",
+      "price": 280,
+      "oldPrice": 310,
+      "rating": 4,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Italy"
+      },
+      "imgSrc": "/images/Product/Black Striped T-shirt.jpg",
+      "images": [
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "perple",
+        "yellow",
+        "black"
+      ],
+      "sizes": [
+        "XX-Large",
+        "3X-Large"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Vintage Checkered Shirt",
+      "price": 165,
+      "rating": 4.5,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Vietnam"
+      },
+      "imgSrc": "/images/Product/CHECKERED SHIRT.jpg",
+      "images": [
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "orange",
+        "red"
+      ],
+      "sizes": [
+        "4X-Large",
+        "XX-Small",
+        "X-Small"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Vintage Polo with Tipping Details",
+      "price": 180,
+      "oldPrice": 230,
+      "rating": 5,
+      "description": "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+      "details": {
+        "material": "95% cotton, 5% elastane",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, reshape while damp, do not tumble dry",
+        "origin": "Bangladesh"
+      },
+      "imgSrc": "/images/Product/Polo with Tipping Details.jpg",
+      "images": [
+        "/images/Product/Polo with Tipping Details.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small",
+        "Medium",
+        "Large"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Vintage Courage Graphic T-shirt",
+      "price": 220,
+      "oldPrice": 240,
+      "rating": 3,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "India"
+      },
+      "imgSrc": "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+      "images": [
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/Polo with Tipping Details.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "yellow",
+        "black",
+        "perple"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Vintage Vertical Striped Shirt",
+      "price": 257,
+      "rating": 3.5,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Portugal"
+      },
+      "imgSrc": "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+      "images": [
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "sizes": [
+        "X-Large",
+        "XX-Large",
+        "3X-Large"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Vintage Loose Fit Bermuda Shorts",
+      "price": 195,
+      "rating": 4,
+      "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+      "details": {
+        "material": "80% cotton, 20% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, wash with similar colors, tumble dry low",
+        "origin": "Turkey"
+      },
+      "imgSrc": "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+      "images": [
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "white",
+        "azure"
+      ],
+      "sizes": [
+        "3X-Large",
+        "4X-Large",
+        "XX-Small",
+        "X-Small"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Vintage Gradient Graphic T-shirt",
+      "price": 120,
+      "oldPrice": 170,
+      "rating": 4.5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Italy"
+      },
+      "imgSrc": "/images/Product/Gradient Graphic T-shirt.jpg",
+      "images": [
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "black",
+        "perple",
+        "yellow"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Vintage Faded Skinny Jeans",
+      "price": 255,
+      "oldPrice": 275,
+      "rating": 5,
+      "description": "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+      "details": {
+        "material": "98% cotton, 2% elastane",
+        "fit": "Skinny fit",
+        "care": "Machine wash cold inside out, do not bleach, line dry",
+        "origin": "Vietnam"
+      },
+      "imgSrc": "/images/Product/FADED SKINNY JEANS.jpg",
+      "images": [
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "blue",
+        "orange"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Urban Black Striped T-shirt",
+      "price": 310,
+      "rating": 3.5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Relaxed fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Bangladesh"
+      },
+      "imgSrc": "/images/Product/Black Striped T-shirt.jpg",
+      "images": [
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "azure",
+        "pink"
+      ],
+      "sizes": [
+        "X-Large",
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Urban Checkered Shirt",
+      "price": 195,
+      "oldPrice": 235,
+      "rating": 4,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Relaxed fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "India"
+      },
+      "imgSrc": "/images/Product/CHECKERED SHIRT.jpg",
+      "images": [
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "perple",
+        "yellow",
+        "black"
+      ],
+      "sizes": [
+        "3X-Large",
+        "4X-Large"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Urban Polo with Tipping Details",
+      "price": 210,
+      "rating": 4.5,
+      "description": "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
+      "details": {
+        "material": "95% cotton, 5% elastane",
+        "fit": "Relaxed fit",
+        "care": "Machine wash cold, reshape while damp, do not tumble dry",
+        "origin": "Portugal"
+      },
+      "imgSrc": "/images/Product/Polo with Tipping Details.jpg",
+      "images": [
+        "/images/Product/Polo with Tipping Details.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "orange",
+        "red"
+      ],
+      "sizes": [
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Urban Courage Graphic T-shirt",
+      "price": 250,
+      "rating": 5,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Relaxed fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Turkey"
+      },
+      "imgSrc": "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+      "images": [
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/Polo with Tipping Details.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Urban Vertical Striped Shirt",
+      "price": 287,
+      "oldPrice": 317,
+      "rating": 3,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Relaxed fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Italy"
+      },
+      "imgSrc": "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+      "images": [
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "yellow",
+        "black",
+        "perple"
+      ],
+      "sizes": [
+        "Large",
+        "X-Large"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Urban Loose Fit Bermuda Shorts",
+      "price": 225,
+      "rating": 3.5,
+      "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
+      "details": {
+        "material": "80% cotton, 20% polyester",
+        "fit": "Loose fit",
+        "care": "Machine wash at 30°C, wash with similar colors, tumble dry low",
+        "origin": "Vietnam"
+      },
+      "imgSrc": "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+      "images": [
+        "/images/Product/LOOSE FIT BERMUDA SHORTS.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "sizes": [
+        "XX-Large",
+        "3X-Large",
+        "4X-Large"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Urban Gradient Graphic T-shirt",
+      "price": 150,
+      "rating": 4,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Relaxed fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Bangladesh"
+      },
+      "imgSrc": "/images/Product/Gradient Graphic T-shirt.jpg",
+      "images": [
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "white",
+        "azure"
+      ],
+      "sizes": [
+        "4X-Large",
+        "XX-Small",
+        "X-Small",
+        "Small"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Urban Faded Skinny Jeans",
+      "price": 285,
+      "oldPrice": 305,
+      "rating": 4.5,
+      "description": "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
+      "details": {
+        "material": "98% cotton, 2% elastane",
+        "fit": "Skinny fit",
+        "care": "Machine wash cold inside out, do not bleach, line dry",
+        "origin": "India"
+      },
+      "imgSrc": "/images/Product/FADED SKINNY JEANS.jpg",
+      "images": [
+        "/images/Product/FADED SKINNY JEANS.jpg",
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "black",
+        "perple",
+        "yellow"
+      ],
+      "sizes": [
+        "X-Small",
+        "Small"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Essential Black Striped T-shirt",
+      "price": 340,
+      "rating": 3,
+      "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
+      "details": {
+        "material": "100% cotton",
+        "fit": "Regular fit",
+        "care": "Machine wash cold, wash with similar colors, do not bleach",
+        "origin": "Portugal"
+      },
+      "imgSrc": "/images/Product/Black Striped T-shirt.jpg",
+      "images": [
+        "/images/Product/Black Striped T-shirt.jpg",
+        "/images/Product/COURAGE GRAPHIC T-SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg"
+      ],
+      "category": "top-selling",
+      "colors": [
+        "blue",
+        "orange"
+      ],
+      "sizes": [
+        "Large",
+        "X-Large",
+        "XX-Large"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Essential Checkered Shirt",
+      "price": 225,
+      "oldPrice": 265,
+      "rating": 3.5,
+      "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
+      "details": {
+        "material": "70% cotton, 30% polyester",
+        "fit": "Regular fit",
+        "care": "Machine wash at 30°C, gentle cycle, warm iron if needed",
+        "origin": "Turkey"
+      },
+      "imgSrc": "/images/Product/CHECKERED SHIRT.jpg",
+      "images": [
+        "/images/Product/CHECKERED SHIRT.jpg",
+        "/images/Product/VERTICAL STRIPED SHIRT.jpg",
+        "/images/Product/Gradient Graphic T-shirt.jpg",
+        "/images/Product/Black Striped T-shirt.jpg"
+      ],
+      "category": "new-arrivals",
+      "colors": [
+        "azure",
+        "pink"
+      ],
+      "sizes": [
+        "XX-Large",
+        "3X-Large",
+        "4X-Large",
+        "XX-Small"
+      ]
+    }
+  ]
+}

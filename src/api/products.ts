@@ -1,9 +1,19 @@
-export const getProducts = async () => {
-  const response = await fetch('https://.../products')
+import type {Product} from '@/types/product'
 
-  if(!response){
-    throw Error('Ошибка загрузки товаров')
+export const getProducts = async (): Promise<Product[]> => {
+
+  const response = await fetch(
+    "http://localhost:3000/products"
+  );
+
+
+  if (!response.ok) {
+    throw new Error(
+      "Ошибка загрузки товаров"
+    );
   }
-  
-  return response.json()
-}
+
+
+  return response.json();
+
+};

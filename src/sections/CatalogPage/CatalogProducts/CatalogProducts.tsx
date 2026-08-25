@@ -12,6 +12,7 @@ type ProductListProps = {
 export default function CatalogProducts({
     filters,products
 }:ProductListProps){
+    
     const [rightLimit,setRightLimit] = useState<number>(9)
     const [leftLimit,setLeftLimit] = useState<number>(0)
     

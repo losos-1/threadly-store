@@ -6,8 +6,9 @@ import ProductFaqs from '@/components/ProductTabs/ProductFaqs';
 import classNames from 'classnames';
 import {reviews} from '@/data/reviews'
 import {faqs} from '@/data/faqs'
-import {products} from '@/data/products'
+
 import ProductCategory from '@/components/ProductCategory';
+import { useProducts } from '@/hooks/useProducts';
 
 type Tab = 'details' | 'reviews' | 'faqs';
 
@@ -16,7 +17,7 @@ type ProductTabsProps = {
     category:string;
 }
 export default function ProductTabs({id,category}:ProductTabsProps){
-
+    const {products} = useProducts()
     const [activeTab,setActiveTab] = useState<Tab>('reviews')
 
     const reviewById = reviews.filter((review) => review.productId === id)

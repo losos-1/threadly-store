@@ -1,0 +1,47 @@
+.registration-form{
+
+    border: var(--border);
+    border-radius: var(--border-radius-s);
+
+    padding: 20px;
+
+    max-width: 415px;
+
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+
+    &__description{
+        padding-bottom: 24px;
+        border-bottom: var(--border);
+
+        h3{
+            color: var(--color-black);
+        }
+    }
+    &__input{
+        width: 100%;
+        border: var(--border);
+        border-radius: var(--border-radius-xs);
+
+        padding:14px 20px;
+        margin-top: 8px;
+
+        &:focus{
+            outline: none;
+        }
+    }
+    &__submit{
+        background-color: var(--color-black);
+        color: var(--color-white);
+
+        border: none;
+        border-radius: var(--border-radius-s);
+        padding: 12px 0px;
+
+        margin-top: 16px;
+    }
+    label{
+        color: var(--color-black);
+    }
+}

@@ -149,7 +149,7 @@ export default function Header() {
 
           <NavLink
             className="header__account-link"
-            to="/profile"
+            to="/login"
             aria-label="Go to profile"
           >
             <img src={profileIcon} alt="" aria-hidden="true" />

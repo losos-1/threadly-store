@@ -1,8 +1,8 @@
 import Button from "@/components/UI/Button";
 import ProductCard from "@/components/ProductCard";
-import { products } from "@/data/products";
 
 import "./ProductCategory.scss";
+import { useProducts } from "@/hooks/useProducts";
 
 type ProductCategoryProps = {
   title: string;
@@ -13,11 +13,18 @@ export default function ProductCategory({
   title,
   category,
 }: ProductCategoryProps) {
+  const {products,loading,error} = useProducts()
+
   const filteredProducts = products.filter(
     (product) => product.category === category,
   ).slice(0,4);
   
-  
+  if(loading){
+    return <div className="product-category wrapper">Loading...</div>
+  }
+  if(error){
+    return <div className="product-category wrapper">{`error:${error}`}</div>
+  }
   return (
     <section className="product-category wrapper">
       <h2 className="product-category__title">{title}</h2>

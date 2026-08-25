@@ -1,8 +1,6 @@
 import {useState,useMemo } from 'react';
-import { products } from '@/data/products';
 import Sidebar from '@/sections/CatalogPage/Sidebar';
 import arrow from '@/assets/icons/arrow.svg'
-
 
 import {
   DEFAULT_CATALOG_FILTERS,
@@ -12,8 +10,11 @@ import {
 import './CatalogPage.scss';
 import CatalogProducts from '@/sections/CatalogPage/CatalogProducts';
 import classNames from 'classnames';
+import {useProducts} from '@/hooks/useProducts';
 
 export default function CatalogPage() {
+  const { products, loading, error } = useProducts();
+
   const [filters, setFilters] = useState<CatalogFilters>(
     DEFAULT_CATALOG_FILTERS,
   );
@@ -61,6 +62,8 @@ const SORT_OPTIONS: { value: SortType; label: string }[] = [
 
 
   const sortedProducts = useMemo(() =>{
+    if (!products.length) return [];
+
     const productCopy = [...products]
 
     switch(sortType){
@@ -84,7 +87,14 @@ const SORT_OPTIONS: { value: SortType; label: string }[] = [
       default:
         return productCopy
     }
-  },[filters,sortType])
+  },[products,sortType])
+
+  if(loading){
+    return <div className="catalog-page wrapper">Страница загружается...</div>
+  }
+  if(error){
+    return <div className="catalog-page wrapper">Страница недоступна...</div>
+  }
   return (
     <section className="catalog-page wrapper">
       <Sidebar onApply={handleApplyFilters} />

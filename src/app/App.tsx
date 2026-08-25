@@ -7,6 +7,8 @@ import CatalogPage from '../pages/CatalogPage'
 import ProfilePage from '../pages/ProfilePage'
 import ProductPage from '@/pages/ProductPage'
 import BasketPage from '@/pages/BasketPage'
+import LoginPage from '@/pages/LoginPage'
+import RegistrationPage from '@/pages/RegistrationPage/RegistrationPage'
 
 export default function App() {
     return (
@@ -17,7 +19,11 @@ export default function App() {
                 <Route path="/catalog" element={<CatalogPage />} />
                 <Route path="/cart" element={<BasketPage />} />
                 <Route path="/profile" element={<ProfilePage />} />
+                <Route path="/profile" element={<ProfilePage />} />
+                
             </Route>
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/register" element={<RegistrationPage />} />
         </Routes>
     )
 }
