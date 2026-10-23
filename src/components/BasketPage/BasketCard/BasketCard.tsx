@@ -1,11 +1,11 @@
-import { useState } from 'react'
 import './BasketCard.scss'
 import deletBtn from '@/assets/icons/deleat-btn.svg'
 import { useCart } from '@/hooks/useCart'
-
+import type { CartItem } from '@/types/cart';
 
 type BasketCardProps  = {
-    id:number,
+    cartKey:string
+    id:number
     imgSrc:string
     title:string
     price:number
@@ -14,14 +14,13 @@ type BasketCardProps  = {
     quantity:number
 }
 export default function BasketCard({
-    imgSrc,title,price,size,color,id,quantity
+    imgSrc,title,price,size,color,quantity,cartKey
 }:BasketCardProps){
     const {
         removeFromCart,
         increaseQuantity,
         decreaseQuantity,
     } = useCart()
-
     
     return(
         <article className='basket-card'>
@@ -39,17 +38,17 @@ export default function BasketCard({
                 <span className='basket-card__price h4'>{`$${price}`}</span>
             </div>
             <div className="basket-card__button">
-                <button className="basket-card__deleat" onClick={() => removeFromCart(id)}>
+                <button className="basket-card__deleat" onClick={() => removeFromCart(cartKey)}>
                     <img src={deletBtn} alt="" />
                 </button>
                 <div className='product-info__cnt'>
-                    <button className='basket-card__cnt-minus' onClick={() => decreaseQuantity(id)}>
+                    <button className='basket-card__cnt-minus' onClick={() => decreaseQuantity(cartKey)}>
                         <span>−</span>
                     </button>
                     <span className='basket-card__cnt-of-product'>
                         {quantity}
                     </span>
-                    <button className='basket-card__cnt-plus' onClick={() => increaseQuantity(id)}>
+                    <button className='basket-card__cnt-plus' onClick={() => increaseQuantity(cartKey)}>
                         <span>+</span>
                     </button>
                 </div>

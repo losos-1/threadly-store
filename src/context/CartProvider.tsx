@@ -14,9 +14,9 @@ type CartProviderProps = {
 type CartContextType = {
   cartItems: CartItem[];
   addToCart: (product: CartItem) => void;
-  removeFromCart: (id: number) => void;
-  increaseQuantity: (id: number) => void;
-  decreaseQuantity: (id: number) => void;
+  removeFromCart: (cartKey: string) => void;
+  increaseQuantity: (cartKey: string) => void;
+  decreaseQuantity: (cartKey: string) => void;
 };
 
 export const CartContext = createContext<CartContextType | null>(null);
@@ -40,16 +40,12 @@ export default function CartProvider({
     setCartItems((prev) => {
       const isAlreadyInCart = prev.some(
         (item) =>
-          item.id === product.id &&
-          item.color === product.color &&
-          item.size === product.size
+          item.cartKey === product.cartKey
       );
 
       if (isAlreadyInCart) {
         return prev.map((item) =>
-          item.id === product.id &&
-          item.color === product.color &&
-          item.size === product.size
+          item.cartKey === product.cartKey
             ? {
                 ...item,
                 quantity: item.quantity + product.quantity,
@@ -61,19 +57,21 @@ export default function CartProvider({
       return [...prev, product];
     });
   };
-  const removeFromCart = (id: number) => {
-    setCartItems((perv) => perv.filter((item) => item.id !== id))
+  const removeFromCart = (cartKey: string) => {
+    setCartItems((prev) => prev.filter((item) => item.cartKey !== cartKey));
   };
 
-  const increaseQuantity = (id: number) => {
+  const increaseQuantity = (cartKey: string) => {
     setCartItems(perv => perv.map(cart =>
-      cart.id === id ? {...cart,quantity:cart.quantity + 1} : cart
+      cart.cartKey === cartKey
+       ? {...cart,quantity:cart.quantity + 1} : cart
     ))
   };
 
-  const decreaseQuantity = (id: number) => {
+  const decreaseQuantity = (cartKey: string) => {
     setCartItems(perv => perv.map(cart =>
-      cart.id === id ? {...cart,quantity: Math.max(1, cart.quantity - 1)} : cart
+      cart.cartKey === cartKey
+      ? {...cart,quantity: Math.max(1, cart.quantity - 1)} : cart
     ))
   };
   return (

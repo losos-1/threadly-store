@@ -9,7 +9,8 @@ export default function BasketProducts(){
         <section className='basket-products'>
             {cartItems.map((item) =>(
                 <BasketCard
-                    key={item.id}
+                    cartKey={item.cartKey}
+                    key={item.cartKey}
                     id = {item.id}
                     imgSrc={item.imgSrc}
                     title={item.title}

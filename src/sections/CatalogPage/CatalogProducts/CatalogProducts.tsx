@@ -16,7 +16,8 @@ export default function CatalogProducts({
     const [rightLimit,setRightLimit] = useState<number>(9)
     const [leftLimit,setLeftLimit] = useState<number>(0)
     
-    const filtedArr = products.filter((product) =>{
+    
+    const filtesProducts = products.filter((product) =>{
         const matchesPrice =
             product.price >= filters.minPrice &&
             product.price <= filters.maxPrice
@@ -31,9 +32,9 @@ export default function CatalogProducts({
                 filters.sizes.includes(productSizes)
             )
         return matchesPrice && matchesColor && matchesSize
-    }).slice(leftLimit,rightLimit)
-    const maxLimit = filtedArr.length
-    
+    })
+    const maxLimit = filtesProducts.length
+    const filtedArr = filtesProducts.slice(leftLimit,rightLimit)
 
     const handleIncreaseLimit = () =>{
         if(rightLimit + 9 > maxLimit){

@@ -78,7 +78,11 @@ export default function ProductPageInfo({
     if (!selectedColor || !selectedSize || quantity === 0) {
       return;
     }
+
+    const cartKey = `${id}-${selectedColor}-${selectedSize}`;
+    
     const product = {
+      cartKey,
       id,
       title,
       price,
