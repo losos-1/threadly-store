@@ -18,9 +18,10 @@ export default function CatalogPage() {
   const [filters, setFilters] = useState<CatalogFilters>(
     DEFAULT_CATALOG_FILTERS,
   );
-
+  const [page, setPage] = useState<number>(1)
   const handleApplyFilters = (newFilters: CatalogFilters) => {
     setFilters(newFilters);
+    setPage(1)
   };
 
   type SortType = 'popular' | 'price-asc' | 'price-desc' | 'discount-desc';
@@ -46,7 +47,7 @@ const SORT_OPTIONS: { value: SortType; label: string }[] = [
 
   const [sortType, setSortType] = useState<SortType>('popular');
   const [sortIsActive, setSortIsActive] = useState(false);
-
+  
   const handleSortBtn = () => {
     setSortIsActive((prev) => !prev);
   };
@@ -54,6 +55,7 @@ const SORT_OPTIONS: { value: SortType; label: string }[] = [
   const handleSortType = (newSortType: SortType) => {
     setSortType(newSortType);
     setSortIsActive(false);
+    setPage(1)
   };
 
   const currentSortLabel =
@@ -140,6 +142,8 @@ const SORT_OPTIONS: { value: SortType; label: string }[] = [
         <CatalogProducts
           products={sortedProducts}
           filters={filters}
+          page={page}
+          onPageChange={setPage}
         />
         
       </div>

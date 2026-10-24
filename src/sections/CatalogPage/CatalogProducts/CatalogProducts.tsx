@@ -8,15 +8,18 @@ import longArrow from '@/assets/icons/arrow-long.svg'
 type ProductListProps = {
   products: Product[];
   filters:CatalogFilters;
+  page:number;
+  onPageChange:(psge:number) => void
 };
+
+const PAGE_SIZE = 9
+
 export default function CatalogProducts({
-    filters,products
+    filters,products,page,onPageChange
 }:ProductListProps){
+
     
-    const [rightLimit,setRightLimit] = useState<number>(9)
-    const [leftLimit,setLeftLimit] = useState<number>(0)
-    
-    
+
     const filtesProducts = products.filter((product) =>{
         const matchesPrice =
             product.price >= filters.minPrice &&
@@ -33,25 +36,19 @@ export default function CatalogProducts({
             )
         return matchesPrice && matchesColor && matchesSize
     })
-    const maxLimit = filtesProducts.length
-    const filtedArr = filtesProducts.slice(leftLimit,rightLimit)
+    const totalPages = Math.ceil(filtesProducts.length / PAGE_SIZE)
+    const start = (page - 1) * PAGE_SIZE
+
+    const filtedArr = filtesProducts.slice(start, start + PAGE_SIZE)
 
     const handleIncreaseLimit = () =>{
-        if(rightLimit + 9 > maxLimit){
-            setRightLimit(maxLimit)
-            setLeftLimit(maxLimit - 9)
-        }else{
-            setRightLimit((perv) => perv + 9)
-            setLeftLimit((perv) => perv + 9)
+        if(page < totalPages){
+            onPageChange(page + 1)
         }
     }
     const handleDecreaseLimit = () =>{
-        if(leftLimit - 9 < 0){
-            setRightLimit(9)
-            setLeftLimit(0)
-        }else{
-            setRightLimit((perv) => perv - 9)
-            setLeftLimit((perv) => perv - 9)
+        if(page > 1){
+            onPageChange(page - 1)
         }
     }
     return(
@@ -63,18 +60,28 @@ export default function CatalogProducts({
                         {...item}
                     />
                 ))}
+                {totalPages === 0 && (
+                    <span className='catalog__products-blank-page'>
+                        Товаров не найдено
+                    </span>
+                )}
             </div>
             
             <div className="catalog__scroll-bar">
                 <button className='catalog__scroll-btn'
                     onClick={handleDecreaseLimit}
+                    disabled={page <= 1}
                 >
                     <img src={longArrow} alt="" />
                     <span>Previous</span>
                 </button>
 
+                <span className='catalog__scroll-page'>{page}</span>
+
                 <button className='catalog__scroll-btn catalog__scroll-btn--left'
-                onClick={handleIncreaseLimit}>
+                    onClick={handleIncreaseLimit}
+                    disabled={page === totalPages || totalPages === 0}
+                >
                     <span>Next</span>
                     <img src={longArrow} alt="" />
                 </button>

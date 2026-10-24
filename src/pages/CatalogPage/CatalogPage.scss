@@ -1,8 +1,12 @@
 .catalog-page{
     display: flex;
-    justify-content: space-between;
+    
     gap: fluid(20,5);
-
+    &__content{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
     &__select{
         width: fluid(300,170);
         margin-bottom:18px ;
