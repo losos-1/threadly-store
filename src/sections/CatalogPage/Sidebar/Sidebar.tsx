@@ -37,6 +37,7 @@ export default function Sidebar({ onApply }: SidebarProps) {
       sizes: selectedSizes,
       minPrice,
       maxPrice,
+      type: null,
     });
     
   };

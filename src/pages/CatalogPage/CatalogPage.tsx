@@ -11,6 +11,15 @@ import './CatalogPage.scss';
 import CatalogProducts from '@/sections/CatalogPage/CatalogProducts';
 import classNames from 'classnames';
 import {useProducts} from '@/hooks/useProducts';
+import { useSearchParams } from 'react-router-dom';
+import { PRODUCT_TYPES, type ProductType } from '@/types/product';
+
+function parseType(value: string | null): ProductType | null {
+  if (value !== null && (PRODUCT_TYPES as readonly string[]).includes(value)) {
+    return value as ProductType;
+  }
+  return null;
+}
 
 export default function CatalogPage() {
   const { products, loading, error } = useProducts();
@@ -90,7 +99,8 @@ const SORT_OPTIONS: { value: SortType; label: string }[] = [
         return productCopy
     }
   },[products,sortType])
-
+  const [searchParams] = useSearchParams();
+  const type = parseType(searchParams.get('type'));
   if(loading){
     return <div className="catalog-page wrapper">Страница загружается...</div>
   }
@@ -144,6 +154,7 @@ const SORT_OPTIONS: { value: SortType; label: string }[] = [
           filters={filters}
           page={page}
           onPageChange={setPage}
+          type = {type}
         />
         
       </div>

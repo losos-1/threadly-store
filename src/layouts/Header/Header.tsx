@@ -22,11 +22,11 @@ const headerLinks: NavigationLink[] = [
 ];
 
 const dropLinks: NavigationLink[] = [
-  { title: "T-shirts", to: "/catalog?category=t-shirts" },
-  { title: "Shorts", to: "/catalog?category=shorts" },
-  { title: "Shirts", to: "/catalog?category=shirts" },
-  { title: "Hoodie", to: "/catalog?category=hoodie" },
-  { title: "Jeans", to: "/catalog?category=jeans" },
+  { title: "T-shirts", to: "/catalog?type=t-shirts" },
+  { title: "Shorts", to: "/catalog?type=shorts" },
+  { title: "Shirts", to: "/catalog?type=shirts" },
+  { title: "Hoodie", to: "/catalog?type=hoodie" },
+  { title: "Jeans", to: "/catalog?type=jeans" },
 ];
 
 export default function Header() {

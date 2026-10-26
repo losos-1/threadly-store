@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Black Striped T-shirt",
+      "type": "t-shirts",
       "price": 240,
       "rating": 3.5,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -33,6 +34,7 @@
     {
       "id": 2,
       "title": "Checkered Shirt",
+      "type": "shirts",
       "price": 125,
       "rating": 4,
       "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
@@ -64,6 +66,7 @@
     {
       "id": 3,
       "title": "Polo with Tipping Details",
+      "type": "t-shirts",
       "price": 140,
       "oldPrice": 190,
       "rating": 4.5,
@@ -95,6 +98,7 @@
     {
       "id": 4,
       "title": "Courage Graphic T-shirt",
+      "type": "t-shirts",
       "price": 180,
       "rating": 5,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -125,6 +129,7 @@
     {
       "id": 5,
       "title": "Vertical Striped Shirt",
+      "type": "shirts",
       "price": 217,
       "oldPrice": 247,
       "rating": 3,
@@ -157,6 +162,7 @@
     {
       "id": 6,
       "title": "Loose Fit Bermuda Shorts",
+      "type": "shorts",
       "price": 155,
       "oldPrice": 195,
       "rating": 3.5,
@@ -188,6 +194,7 @@
     {
       "id": 7,
       "title": "Gradient Graphic T-shirt",
+      "type": "t-shirts",
       "price": 80,
       "rating": 4,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -218,6 +225,7 @@
     {
       "id": 8,
       "title": "Faded Skinny Jeans",
+      "type": "jeans",
       "price": 215,
       "rating": 4.5,
       "description": "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
@@ -249,6 +257,7 @@
     {
       "id": 9,
       "title": "Classic Black Striped T-shirt",
+      "type": "t-shirts",
       "price": 190,
       "oldPrice": 220,
       "rating": 3,
@@ -280,6 +289,7 @@
     {
       "id": 10,
       "title": "Classic Checkered Shirt",
+      "type": "shirts",
       "price": 75,
       "oldPrice": 115,
       "rating": 3.5,
@@ -311,6 +321,7 @@
     {
       "id": 11,
       "title": "Classic Polo with Tipping Details",
+      "type": "t-shirts",
       "price": 90,
       "rating": 4,
       "description": "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
@@ -342,6 +353,7 @@
     {
       "id": 12,
       "title": "Classic Courage Graphic T-shirt",
+      "type": "t-shirts",
       "price": 130,
       "oldPrice": 150,
       "rating": 4.5,
@@ -373,6 +385,7 @@
     {
       "id": 13,
       "title": "Classic Vertical Striped Shirt",
+      "type": "shirts",
       "price": 167,
       "rating": 5,
       "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
@@ -403,6 +416,7 @@
     {
       "id": 14,
       "title": "Classic Loose Fit Bermuda Shorts",
+      "type": "shorts",
       "price": 105,
       "rating": 3,
       "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
@@ -434,6 +448,7 @@
     {
       "id": 15,
       "title": "Classic Gradient Graphic T-shirt",
+      "type": "t-shirts",
       "price": 55,
       "oldPrice": 105,
       "rating": 3.5,
@@ -465,6 +480,7 @@
     {
       "id": 16,
       "title": "Classic Faded Skinny Jeans",
+      "type": "jeans",
       "price": 165,
       "rating": 4,
       "description": "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
@@ -495,6 +511,7 @@
     {
       "id": 17,
       "title": "Relaxed Black Striped T-shirt",
+      "type": "t-shirts",
       "price": 220,
       "rating": 5,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -526,6 +543,7 @@
     {
       "id": 18,
       "title": "Relaxed Checkered Shirt",
+      "type": "shirts",
       "price": 105,
       "oldPrice": 145,
       "rating": 3,
@@ -557,6 +575,7 @@
     {
       "id": 19,
       "title": "Relaxed Polo with Tipping Details",
+      "type": "t-shirts",
       "price": 120,
       "rating": 3.5,
       "description": "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
@@ -587,6 +606,7 @@
     {
       "id": 20,
       "title": "Relaxed Courage Graphic T-shirt",
+      "type": "t-shirts",
       "price": 160,
       "oldPrice": 180,
       "rating": 4,
@@ -619,6 +639,7 @@
     {
       "id": 21,
       "title": "Relaxed Vertical Striped Shirt",
+      "type": "shirts",
       "price": 197,
       "oldPrice": 227,
       "rating": 4.5,
@@ -650,6 +671,7 @@
     {
       "id": 22,
       "title": "Relaxed Loose Fit Bermuda Shorts",
+      "type": "shorts",
       "price": 135,
       "rating": 5,
       "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
@@ -680,6 +702,7 @@
     {
       "id": 23,
       "title": "Relaxed Gradient Graphic T-shirt",
+      "type": "t-shirts",
       "price": 60,
       "rating": 3,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -711,6 +734,7 @@
     {
       "id": 24,
       "title": "Relaxed Faded Skinny Jeans",
+      "type": "jeans",
       "price": 195,
       "oldPrice": 215,
       "rating": 3.5,
@@ -742,6 +766,7 @@
     {
       "id": 25,
       "title": "Premium Black Striped T-shirt",
+      "type": "t-shirts",
       "price": 250,
       "oldPrice": 280,
       "rating": 4.5,
@@ -773,6 +798,7 @@
     {
       "id": 26,
       "title": "Premium Checkered Shirt",
+      "type": "shirts",
       "price": 135,
       "rating": 5,
       "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
@@ -804,6 +830,7 @@
     {
       "id": 27,
       "title": "Premium Polo with Tipping Details",
+      "type": "t-shirts",
       "price": 150,
       "oldPrice": 200,
       "rating": 3,
@@ -835,6 +862,7 @@
     {
       "id": 28,
       "title": "Premium Courage Graphic T-shirt",
+      "type": "t-shirts",
       "price": 190,
       "rating": 3.5,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -865,6 +893,7 @@
     {
       "id": 29,
       "title": "Premium Vertical Striped Shirt",
+      "type": "shirts",
       "price": 227,
       "rating": 4,
       "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
@@ -896,6 +925,7 @@
     {
       "id": 30,
       "title": "Premium Loose Fit Bermuda Shorts",
+      "type": "shorts",
       "price": 165,
       "oldPrice": 205,
       "rating": 4.5,
@@ -927,6 +957,7 @@
     {
       "id": 31,
       "title": "Premium Gradient Graphic T-shirt",
+      "type": "t-shirts",
       "price": 90,
       "rating": 5,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -957,6 +988,7 @@
     {
       "id": 32,
       "title": "Premium Faded Skinny Jeans",
+      "type": "jeans",
       "price": 225,
       "rating": 3,
       "description": "Comfortable everyday jeans with a clean silhouette and versatile casual styling.",
@@ -988,6 +1020,7 @@
     {
       "id": 33,
       "title": "Vintage Black Striped T-shirt",
+      "type": "t-shirts",
       "price": 280,
       "oldPrice": 310,
       "rating": 4,
@@ -1019,6 +1052,7 @@
     {
       "id": 34,
       "title": "Vintage Checkered Shirt",
+      "type": "shirts",
       "price": 165,
       "rating": 4.5,
       "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
@@ -1049,6 +1083,7 @@
     {
       "id": 35,
       "title": "Vintage Polo with Tipping Details",
+      "type": "t-shirts",
       "price": 180,
       "oldPrice": 230,
       "rating": 5,
@@ -1081,6 +1116,7 @@
     {
       "id": 36,
       "title": "Vintage Courage Graphic T-shirt",
+      "type": "t-shirts",
       "price": 220,
       "oldPrice": 240,
       "rating": 3,
@@ -1112,6 +1148,7 @@
     {
       "id": 37,
       "title": "Vintage Vertical Striped Shirt",
+      "type": "shirts",
       "price": 257,
       "rating": 3.5,
       "description": "A versatile shirt with a comfortable fit, easy to combine with both casual and layered outfits.",
@@ -1142,6 +1179,7 @@
     {
       "id": 38,
       "title": "Vintage Loose Fit Bermuda Shorts",
+      "type": "shorts",
       "price": 195,
       "rating": 4,
       "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
@@ -1173,6 +1211,7 @@
     {
       "id": 39,
       "title": "Vintage Gradient Graphic T-shirt",
+      "type": "t-shirts",
       "price": 120,
       "oldPrice": 170,
       "rating": 4.5,
@@ -1204,6 +1243,7 @@
     {
       "id": 40,
       "title": "Vintage Faded Skinny Jeans",
+      "type": "jeans",
       "price": 255,
       "oldPrice": 275,
       "rating": 5,
@@ -1235,6 +1275,7 @@
     {
       "id": 41,
       "title": "Urban Black Striped T-shirt",
+      "type": "t-shirts",
       "price": 310,
       "rating": 3.5,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -1266,6 +1307,7 @@
     {
       "id": 42,
       "title": "Urban Checkered Shirt",
+      "type": "shirts",
       "price": 195,
       "oldPrice": 235,
       "rating": 4,
@@ -1297,6 +1339,7 @@
     {
       "id": 43,
       "title": "Urban Polo with Tipping Details",
+      "type": "t-shirts",
       "price": 210,
       "rating": 4.5,
       "description": "A versatile polo with refined details, made for smart-casual outfits and everyday wear.",
@@ -1327,6 +1370,7 @@
     {
       "id": 44,
       "title": "Urban Courage Graphic T-shirt",
+      "type": "t-shirts",
       "price": 250,
       "rating": 5,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -1358,6 +1402,7 @@
     {
       "id": 45,
       "title": "Urban Vertical Striped Shirt",
+      "type": "shirts",
       "price": 287,
       "oldPrice": 317,
       "rating": 3,
@@ -1389,6 +1434,7 @@
     {
       "id": 46,
       "title": "Urban Loose Fit Bermuda Shorts",
+      "type": "shorts",
       "price": 225,
       "rating": 3.5,
       "description": "Relaxed everyday shorts designed for comfortable warm-weather outfits and easy styling.",
@@ -1419,6 +1465,7 @@
     {
       "id": 47,
       "title": "Urban Gradient Graphic T-shirt",
+      "type": "t-shirts",
       "price": 150,
       "rating": 4,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -1450,6 +1497,7 @@
     {
       "id": 48,
       "title": "Urban Faded Skinny Jeans",
+      "type": "jeans",
       "price": 285,
       "oldPrice": 305,
       "rating": 4.5,
@@ -1481,6 +1529,7 @@
     {
       "id": 49,
       "title": "Essential Black Striped T-shirt",
+      "type": "t-shirts",
       "price": 340,
       "rating": 3,
       "description": "A comfortable everyday T-shirt with a modern fit, made for casual outfits and easy layering.",
@@ -1511,6 +1560,7 @@
     {
       "id": 50,
       "title": "Essential Checkered Shirt",
+      "type": "shirts",
       "price": 225,
       "oldPrice": 265,
       "rating": 3.5,

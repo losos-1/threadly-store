@@ -19,6 +19,9 @@ export type ProductSize =
   | "XX-Large"
   | "3X-Large"
   | "4X-Large";
+export type ProductType = typeof PRODUCT_TYPES[number];
+
+export const PRODUCT_TYPES = ['t-shirts', 'shirts', 'jeans', 'shorts', 'hoodie'] as const
 
 export type ProductCategory = "new-arrivals" | "top-selling";
 
@@ -49,4 +52,5 @@ export type Product = {
   sizes: ProductSize[];
 
   details: ProductDetails;
+  type: ProductType;
 };

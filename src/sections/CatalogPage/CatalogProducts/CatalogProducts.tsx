@@ -1,8 +1,7 @@
 import './CatalogProducts.scss'
-import type { Product } from '@/types/product';
+import type { Product,ProductType } from '@/types/product';
 import type {CatalogFilters} from '@/types/filters'
 import ProductCard from '@/components/ProductCard';
-import { useState } from 'react';
 import longArrow from '@/assets/icons/arrow-long.svg'
 
 type ProductListProps = {
@@ -10,12 +9,13 @@ type ProductListProps = {
   filters:CatalogFilters;
   page:number;
   onPageChange:(psge:number) => void
+  type:null | ProductType
 };
 
 const PAGE_SIZE = 9
 
 export default function CatalogProducts({
-    filters,products,page,onPageChange
+    filters,products,page,onPageChange,type
 }:ProductListProps){
 
     
@@ -33,8 +33,13 @@ export default function CatalogProducts({
                 filters.sizes.length === 0 ||
                 product.sizes.some((productSizes) =>
                 filters.sizes.includes(productSizes)
+        
             )
-        return matchesPrice && matchesColor && matchesSize
+        const matchesType = 
+            type === null || 
+            product.type === type
+            
+        return matchesPrice && matchesColor && matchesSize && matchesType
     })
     const totalPages = Math.ceil(filtesProducts.length / PAGE_SIZE)
     const start = (page - 1) * PAGE_SIZE
