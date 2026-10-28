@@ -1,7 +1,6 @@
 import './BasketCard.scss'
 import deletBtn from '@/assets/icons/deleat-btn.svg'
 import { useCart } from '@/hooks/useCart'
-import type { CartItem } from '@/types/cart';
 
 type BasketCardProps  = {
     cartKey:string

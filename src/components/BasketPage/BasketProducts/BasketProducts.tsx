@@ -3,7 +3,7 @@ import BasketCard from '../BasketCard';
 import { useCart } from '@/hooks/useCart';
 
 export default function BasketProducts(){
-    const { cartItems, addToCart } = useCart();
+    const { cartItems } = useCart();
 
     return(
         <section className='basket-products'>

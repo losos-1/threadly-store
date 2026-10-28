@@ -1,5 +1,4 @@
 import verified from "@/assets/icons/verified.svg";
-import type { Rating } from "@/types/review";
 
 import "./FeedbackCard.scss";
 

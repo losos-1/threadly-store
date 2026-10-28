@@ -1,5 +1,4 @@
 import './RegistrationForm.scss'
-import arrow from '@/assets/icons/arrow.svg'
 import { Link } from 'react-router-dom'
 
 export default function RegistrationForm() {
