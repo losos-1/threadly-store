@@ -1,5 +1,5 @@
 {
-  "name": "react-ts-starter-ready",
+  "name": "threadly",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -10,19 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
     "classnames": "^2.5.1",
     "react": "latest",
     "react-dom": "latest",
-    "react-router": "^8.2.0",
     "react-router-dom": "latest"
   },
   "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "sass": "latest",
-    "typescript": "latest",
-    "vite": "latest"
+    "@vitejs/plugin-react": "^6.0.3",
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "json-server": "^0.17.4",
+    "sass": "^1.101.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.1.4"
   }
 }

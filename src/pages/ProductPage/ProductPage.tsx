@@ -17,11 +17,7 @@ export default function ProductPage() {
   const [quantity,setQuantity] = useState<number>(1)
   
   const { productId } = useParams();
-  console.log(productId);
-  console.log(products);  
-  console.log(
-  products.find(item => item.id == Number(productId))
-);
+  
   if(loading){
     return <div className="product-category wrapper">Loading...</div>
   }

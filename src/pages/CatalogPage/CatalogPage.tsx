@@ -99,8 +99,11 @@ const SORT_OPTIONS: { value: SortType; label: string }[] = [
         return productCopy
     }
   },[products,sortType])
+
   const [searchParams] = useSearchParams();
   const type = parseType(searchParams.get('type'));
+
+  
   if(loading){
     return <div className="catalog-page wrapper">Страница загружается...</div>
   }
